@@ -4,11 +4,13 @@ var iconInfo = {
     cat: { url: '/media/animal_icon/cat.png',scaledSize: new google.maps.Size(25,25) },
     dog: { url: '/media/animal_icon/dog2.png', scaledSize: new google.maps.Size(25, 25) },
     rhino: { url: '/media/animal_icon/rhino.png' },
-    leopard: { url: '/media/animal_icon/leopard.png', scaledSize: new google.maps.Size(50, 50) },
+    leopard: { url: '/media/animal_icon/leopard.png', scaledSize: new google.maps.Size(25, 25) },
     lion: { url: '/media/animal_icon/lion1.png',scaledSize: new google.maps.Size(25, 25) },
     elephant: { url: '/media/animal_icon/elephant.png', scaledSize: new google.maps.Size(50, 50) },
     horse:{ url: '/media/animal_icon/horse.png', scaledSize: new google.maps.Size(25, 25) },
     rabbit:{ url: '/media/animal_icon/rabbit.png', scaledSize: new google.maps.Size(25, 25) },
+    yak:{ url: '/media/animal_icon/yak.png', scaledSize: new google.maps.Size(25, 25) },
+    cheetah:{ url: '/media/animal_icon/cheetah.png', scaledSize: new google.maps.Size(25, 25) },
 
 };
 
@@ -234,7 +236,8 @@ const checkboxList = [
     { id: 'changjinglu-Checkbox', value: 'giraffe' },
     { id: 'horse-Checkbox', value: 'horse' },
     { id: 'rabbit-Checkbox', value: 'rabbit' },
-
+    { id: 'yak-Checkbox', value: 'yak' },
+    { id: 'cheetah-Checkbox', value: 'cheetah' },
 
 
 
@@ -600,18 +603,19 @@ var startTime; // 用于记录开始时间
 
 controlImage.addEventListener('click', function() {
     if (intervalId === null) {
-        controlImage.src = 'media/animal_icon/leopard.png'; // 切换到暂停图片
-        let intervalTime = 50 - currentValue / 20; // 根据 currentValue 的值调整间隔时间
+        clearInterval(intervalId); // 清除旧的定时器
+        controlImage.src = 'media/animal_icon/stop.png'; // 切换到暂停图片
+        //let intervalTime = 50 - currentValue / 20; // 根据 currentValue 的值调整间隔时间
+        // if (intervalTime < 10) { // 设置最小间隔时间为10
+        let intervalTime = 50;
+        //}
         intervalId = setInterval(autoSlide, intervalTime); // 根据 intervalTime 自动拖动
     } else {
         clearInterval(intervalId);
         intervalId = null;
-        controlImage.src = 'media/animal_icon/dog.png'; // 切换回播放图片
+        controlImage.src = 'media/animal_icon/play.png'; // 切换回播放图片
     }
 });
-
-
-
 
 function autoSlide() {
     
@@ -663,7 +667,7 @@ function autoSlide() {
     if (currentValue >= 8998) {
         clearInterval(intervalId); // 停止自动拖动的 setInterval
         intervalId = null; // 确保 intervalId 为 null
-        controlImage.src = 'media/animal_icon/dog.png'; // 切换回播放图片
+        controlImage.src = 'media/animal_icon/play.png'; // 切换回播放图片
         time9000 = new Date();
         console.log('currentValue达到9000的时间：', new Date())
     }
@@ -902,7 +906,7 @@ checkboxes.forEach(function(checkbox) {
             // 如果复选框被选中，则暂停自动滑块函数
             clearInterval(intervalId);
             intervalId = null;
-            controlImage.src = 'media/animal_icon/dog.png';
+            controlImage.src = 'media/animal_icon/play.png';
         
         
                            

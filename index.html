@@ -34,7 +34,7 @@
     </div>
     <!-- <img class="image-button" src="/media/animal_icon/cat.png" alt="按钮" id="imageButton"> -->
     <div id="languagePane">
-        <a href="/EN.html" title="switch to English version"><img class="image-button1" id="languageSwitch" src="/media/animal_icon/dog.png" alt="switch language"></a>
+        <button title="switch to English version"><img class="image-button1" id="languageSwitch" src="/media/animal_icon/dog.png" alt="switch language"></button>
     </div>
         <!-- 文字 -->
         
@@ -65,7 +65,7 @@
         <div class="timeline-container"id="timeline">
           <input type="range" id="slider" min="-1" max="8999" step="1" value="0" >
 
-          <img id="controlImage" src="/media/animal_icon/dog.png" alt="按钮">
+          <img id="controlImage" src="/media/animal_icon/play.png" alt="按钮">
           <img id="Image" src="/media/age.jpg" alt="按钮">
           <a href="/BC.html" id="openWindow">对照表</a>
 
@@ -107,22 +107,9 @@
 
 
 
-        <button class="category-sub" id="11Button" onclick="toggleContainer('11CategoryContainer')">途径</button>
-        
-        <div class="subcategory-container" id="11CategoryContainer">
+       
 
-        <label class="category-button">
-            <input type="checkbox" class="category-checkbox" id="ocean-Checkbox" data-category="D"  value="海上絲綢之路"> 海上絲綢之路
-        </label>
-        <label class="category-button">
-            <input type="checkbox" class="category-checkbox" id="land-Checkbox" data-category="D"   value="陸上絲綢之路"> 陸上絲綢之路
-        </label>
-        <label class="category-button">
-            <input type="checkbox" class="category-checkbox" id="qita-Checkbox" data-category="D"   value="其他"> 其他
-        </label>
-        </div>
-
-        <hr width="100%" />
+       
 
 
         <button class="category-sub" id="animalButton" onclick="toggleContainer('animalCategoryContainer')">动物类别</button>
@@ -179,6 +166,12 @@
             <label class="category-button">
                 <input type="checkbox" class="category-checkbox" id="changjinglu-Checkbox" data-category="A"  value="giraffe"> 長頸鹿
             </label>
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="yak-Checkbox" data-category="A"  value="yak"> 氂牛
+            </label>
+            <label class="category-button">
+                <input type="checkbox" class="category-checkbox" id="cheetah-Checkbox" data-category="A"  value="cheetah"> 獵豹
+            </label>
             </div>
         
         
@@ -193,8 +186,21 @@
         
         </div>
         
+        <hr width="100%" />
+        <button class="category-sub" id="11Button" onclick="toggleContainer('11CategoryContainer')">途径</button>
         
+        <div class="subcategory-container" id="11CategoryContainer">
 
+        <label class="category-button">
+            <input type="checkbox" class="category-checkbox" id="ocean-Checkbox" data-category="D"  value="海上絲綢之路"> 海上絲綢之路
+        </label>
+        <label class="category-button">
+            <input type="checkbox" class="category-checkbox" id="land-Checkbox" data-category="D"   value="陸上絲綢之路"> 陸上絲綢之路
+        </label>
+        <label class="category-button">
+            <input type="checkbox" class="category-checkbox" id="qita-Checkbox" data-category="D"   value="其他"> 其他
+        </label>
+        </div>
 
 
         
@@ -341,7 +347,11 @@
     <script src="/script/camelMove.js"></script>
     <script src="/script/horseMove.js"></script>
     <script src="/script/rabbitMove.js"></script>
+    <script src="/script/yakMove.js"></script>
+    <script src="/script/leopardMove.js"></script>
+    <script src="/script/cheetahMove.js"></script>
+    <script src="/script/en.js"></script>
 
-
+    
 </body>
 </html>

@@ -398,3 +398,9 @@ body {
     /* transform-origin: right top; */
    
 }
+
+#controlImage {
+    width: 30px; /* 设置宽度 */
+    height: 30px; /* 设置高度 */
+  }
+  
