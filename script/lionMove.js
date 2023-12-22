@@ -1,7 +1,50 @@
 window.onload = function () {
 
     initMap();
+    let infowindows = {};
 
+    for (let key in markers) {
+      if (markers.hasOwnProperty(key)) {
+        let marker = markers[key];
+    
+        marker.addListener('click', function() {
+          console.log('点击了标记 ' + key);
+    
+          // 检查信息窗口的状态并执行相应操作
+          if (infowindows[key] !== undefined && infowindows[key].getMap()) {
+            console.log('关闭已存在的标记' + key + '的信息窗口');
+            infowindows[key].close();
+          } else {
+            let content = '<div class="info-window" id="infoContainer">' +
+                '<h1>' + marker.content.title + '</h1>' +
+                '<p>' + marker.content.description + '</p>' +
+                '<p class="info-reference">参考/Reference：' + marker.content.reference + '</p>' +
+                '<img class="info-image" src="' + marker.content.image + '" alt="">' +
+                '</div>';
+    
+            let infowindow = new google.maps.InfoWindow({
+              content: content,
+            });
+    
+            infowindow.open(map, marker);
+            infowindows[key] = infowindow;
+          }
+        });
+      }
+    }
+ 
+
+   
+
+
+
+
+
+        
+    }
+    
+    
+      
     markers.lion1 = createMarker({ lat: 30.0030,lng:31.2045 }, 'lion', '埃及吉薩', { A: ['lion'], B: ['史前至夏商周'], C: ['宗教信仰'], D: ['其他'], E: ['非洲'] }
         , {
             title_cn: '描述',title_en: 'Description',
@@ -1010,47 +1053,4 @@ window.onload = function () {
     });
 
 
-
-    let infowindows = {};
-
-for (let key in markers) {
-  if (markers.hasOwnProperty(key)) {
-    let marker = markers[key];
-
-    marker.addListener('click', function() {
-      console.log('点击了标记 ' + key);
-
-      // 检查信息窗口的状态并执行相应操作
-      if (infowindows[key] !== undefined && infowindows[key].getMap()) {
-        console.log('关闭已存在的标记' + key + '的信息窗口');
-        infowindows[key].close();
-      } else {
-        let content = '<div class="info-window" id="infoContainer">' +
-            '<h1>' + marker.content.title + '</h1>' +
-            '<p>' + marker.content.description + '</p>' +
-            '<p class="info-reference">参考/Reference：' + marker.content.reference + '</p>' +
-            '<img class="info-image" src="' + marker.content.image + '" alt="">' +
-            '</div>';
-
-        let infowindow = new google.maps.InfoWindow({
-          content: content,
-        });
-
-        infowindow.open(map, marker);
-        infowindows[key] = infowindow;
-      }
-    });
-  }
-}
-
-
-
-
-
-
-        
-    }
-    
-    
-   
 

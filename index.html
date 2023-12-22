@@ -121,7 +121,7 @@
            </label>  
         
             
-                <button class="category-ss" id="animalButton" onclick="toggleContainer('ss1-Container')">驯化哺乳动物</button>
+                <button class="category-ss" id="animalButton" onclick="toggleContainer('ss1-Container')">哺乳動物（馴化）</button>
                 <div class="ss-container" id="ss1-Container">
                     <label class="category-button">
                         <input type="checkbox" class="category-checkbox" id="cat-Checkbox"data-category="A"  value="cat"> 貓
@@ -135,6 +135,12 @@
                     <label class="category-button">
                         <input type="checkbox" class="category-checkbox" id="rabbit-Checkbox" data-category="A"  value="rabbit"> 兔
                     </label>
+                    <label class="category-button">
+                        <input type="checkbox" class="category-checkbox" id="yak-Checkbox" data-category="A"  value="yak"> 氂牛
+                    </label>
+                    <label class="category-button">
+                        <input type="checkbox" class="category-checkbox" id="camel-Checkbox" data-category="A"  value="camel"> 駱駝
+                    </label>
                 </div>
             
 
@@ -142,12 +148,10 @@
         
        
            
-            <button class="category-ss" id="animalButton" onclick="toggleContainer('ss2-Container')">未驯化哺乳动物</button>
+            <button class="category-ss" id="animalButton" onclick="toggleContainer('ss2-Container')">哺乳動物（野生）</button>
            
             <div class="ss-container" id="ss2-Container">
-            <label class="category-button">
-                <input type="checkbox" class="category-checkbox" id="camel-Checkbox" data-category="A"  value="camel"> 駱駝
-            </label>
+            
             <label class="category-button">
                 <input type="checkbox" class="category-checkbox" id="rhino-Checkbox" data-category="A"  value="rhino"> 犀牛
             </label>
@@ -166,9 +170,7 @@
             <label class="category-button">
                 <input type="checkbox" class="category-checkbox" id="changjinglu-Checkbox" data-category="A"  value="giraffe"> 長頸鹿
             </label>
-            <label class="category-button">
-                <input type="checkbox" class="category-checkbox" id="yak-Checkbox" data-category="A"  value="yak"> 氂牛
-            </label>
+            
             <label class="category-button">
                 <input type="checkbox" class="category-checkbox" id="cheetah-Checkbox" data-category="A"  value="cheetah"> 獵豹
             </label>
@@ -328,7 +330,7 @@
     </div>
       
     </div>
-    <i class="toggle-icon" id="toggle"> </i>
+    <i class="toggle-icon" id="toggle" aria-label="收起侧边面板"> </i>
 
 
 
