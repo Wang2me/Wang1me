@@ -3,14 +3,22 @@ var iconInfo = {
     camel: { url: '/media/animal_icon/camel.PNG', scaledSize: new google.maps.Size(30, 30)},
     cat: { url: '/media/animal_icon/cat.png',scaledSize: new google.maps.Size(25,25) },
     dog: { url: '/media/animal_icon/dog2.png', scaledSize: new google.maps.Size(25, 25) },
-    rhino: { url: '/media/animal_icon/rhino.png' },
+    rhino: { url: '/media/animal_icon/rhino.png',scaledSize: new google.maps.Size(25, 25) },
     leopard: { url: '/media/animal_icon/leopard.png', scaledSize: new google.maps.Size(25, 25) },
     lion: { url: '/media/animal_icon/lion1.png',scaledSize: new google.maps.Size(25, 25) },
-    elephant: { url: '/media/animal_icon/elephant.png', scaledSize: new google.maps.Size(50, 50) },
+    elephant: { url: '/media/animal_icon/elephant1.png', scaledSize: new google.maps.Size(25, 25) },
     horse:{ url: '/media/animal_icon/horse.png', scaledSize: new google.maps.Size(25, 25) },
     rabbit:{ url: '/media/animal_icon/rabbit.png', scaledSize: new google.maps.Size(25, 25) },
-    yak:{ url: '/media/animal_icon/yak.png', scaledSize: new google.maps.Size(25, 25) },
+    yak:{ url: '/media/animal_icon/yak.png', scaledSize: new google.maps.Size(50, 50) },
     cheetah:{ url: '/media/animal_icon/cheetah.png', scaledSize: new google.maps.Size(25, 25) },
+    giraffe:{ url: '/media/animal_icon/giraffe.png', scaledSize: new google.maps.Size(25, 25) },
+    zebra:{ url: '/media/animal_icon/zebra.png', scaledSize: new google.maps.Size(25, 25) },
+    antelope:{ url: '/media/animal_icon/antelope.png', scaledSize: new google.maps.Size(25, 25) },
+    ostrich:{ url: '/media/animal_icon/ostrich.png', scaledSize: new google.maps.Size(25, 25) },
+    hawk:{ url: '/media/animal_icon/hawk.png', scaledSize: new google.maps.Size(25, 25) },
+    parrot:{ url: '/media/animal_icon/parrot.png', scaledSize: new google.maps.Size(25, 25) },
+    peacock:{ url: '/media/animal_icon/peacock.png', scaledSize: new google.maps.Size(25, 25) },
+    turkey:{ url: '/media/animal_icon/turkey.png', scaledSize: new google.maps.Size(25, 25) },
 
 };
 
@@ -231,14 +239,20 @@ const checkboxList = [
     { id: 'rhino-Checkbox', value: 'rhino' },
     { id: 'leopard-Checkbox', value: 'leopard' },
     { id: 'lion-Checkbox', value: 'lion' },
-    { id: 'elephant-Checkbox', value: 'elephant' },
     { id: 'banma-Checkbox', value: 'zebra' },
     { id: 'changjinglu-Checkbox', value: 'giraffe' },
     { id: 'horse-Checkbox', value: 'horse' },
     { id: 'rabbit-Checkbox', value: 'rabbit' },
     { id: 'yak-Checkbox', value: 'yak' },
     { id: 'cheetah-Checkbox', value: 'cheetah' },
-
+    { id: 'elephant-Checkbox', value: 'elephant' },
+    { id: 'antelope-Checkbox', value: 'antelope' },
+    { id: 'ostrich-Checkbox', value: 'ostrich' },
+    { id: 'hawk-Checkbox', value: 'hawk' },
+    { id: 'parrot-Checkbox', value: 'parrot' },
+    { id: 'peacock-Checkbox', value: 'peacock' },
+    { id: 'turkey-Checkbox', value: 'turkey' },
+    
 
 
     { id: 'xia-Checkbox', value: '史前至夏商周' },
@@ -270,7 +284,7 @@ const checkboxList = [
     { id: 'ouzhou-Checkbox', value: '歐洲' },
     { id: 'meizhou-Checkbox', value: '美洲' },
     { id: 'dayagnzhou-Checkbox', value: '大洋洲' },
-    { id: 'xiyu-Checkbox', value: '古代西域' }
+   
 ];
 
 checkboxList.forEach(item => {

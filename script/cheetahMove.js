@@ -17,7 +17,7 @@
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'獵豹，曾經廣泛分佈於西亞和非洲地區，其速度可超過每小時100公里，是陸地上跑得最快的動物。因其優秀的高速奔跑能力，獵豹被古人用於狩獵。這一習俗通過陸上絲綢之路傳入中國，在唐代十分流行。在章懷太子墓的壁畫中有一幅《狩獵出行圖》，其中有一隻獵豹蹲坐在馬背上的場景，顯示了獵豹在唐朝皇室狩獵活動中的參與。'  
  ,description_en:''
-,reference:'1. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T’ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 87-88.<br>&emsp;&emsp;&emsp;2. 侯曉斌，〈唐代狩獵活動中的珍禽猛獸速度之神——獵豹〉，乾陵博物館網站（2022年4月14日），www.zhongguoqianling.com/news/1217.html。'
+,reference:'1. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T\'ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 87-88.<br>&emsp;&emsp;&emsp;2. 侯曉斌，〈唐代狩獵活動中的珍禽猛獸速度之神——獵豹〉，乾陵博物館網站（2022年4月14日），www.zhongguoqianling.com/news/1217.html。'
  ,image:''
  ,referenceUrl:''});
 

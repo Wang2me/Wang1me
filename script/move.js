@@ -66,10 +66,10 @@ function handleToggleMarkers(currentValue) {
     const camelMarkers = [camel1, camel2, camel3,camel4, camel5 , camel8, camel9, camel6,camel7,camel10, 
         camel11, camel12, camel13, camel14, camel15, camel16, camel17, camel18, camel19, camel20, 
         camel21, camel22, camel23, camel24, camel25, camel26, camel27, camel28, camel29,camel30, 
-        camel31, camel32, camel33, camel34,camel35, camel36, camel37, camel38, camel39, camel40, 
-        camel41,   camel42, camel43, camel44, camel45, camel46,camel47, camel48, camel49, camel50, 
-        camel51, camel52, camel53,  camel54, camel55,camel56, camel57, camel58, camel59, camel60, 
-        camel61, camel62, camel63,camel64,camel65, camel66, camel67, camel68];
+        camel31, camel32, camel33, camel34, camel35, camel36, camel37, camel38, camel39, camel40, 
+        camel41, camel42, camel43, camel44, camel45, camel46, camel47, camel48, camel49, camel50, 
+        camel51, camel52, camel53, camel54, camel55, camel56, camel57, camel58, camel59, camel60, 
+        camel61, camel62, camel63, camel64, camel65, camel66, camel67, camel68];
     const horseMarkers=[horse1, horse2, horse3, horse4, horse5, horse6,horse7, horse8, horse9, horse10, 
             horse11, horse12, horse13, horse14, horse15, horse16, horse17, horse18, horse19, horse20,
             horse21, horse22, horse23, horse24, horse25, horse26, horse27, horse28, horse29, horse30,
@@ -77,13 +77,14 @@ function handleToggleMarkers(currentValue) {
             horse41, horse42, horse43, horse44, horse45, horse46,horse47, horse48, horse49, horse50, 
             horse51, horse52, horse53, horse54, horse55,horse56, horse57, horse58, horse59, horse60, 
             horse61, horse62, horse63, horse64,horse65, horse66, horse67, horse68,horse69,horse70,
-               horse71];
+            horse71];
     const catMarkers = [
             cat1, cat2, cat3, cat4, cat5, cat6, cat7, cat8, cat9, 
             cat10, cat11, cat12, cat13, cat14, cat15, cat16, cat17, cat18, cat19,
             cat20, cat21, cat22, cat23, cat24, cat25, cat26, cat27, cat28,cat29, 
             cat30, cat31, cat32, cat33, cat34, cat35, cat36, cat37, cat38, 
-];
+];    
+
 const dogMarkers = [
     dog1, dog2, dog3, dog4, dog5, dog6, dog7, dog8, dog9, 
     dog10,dog11, dog12, dog13, dog14, dog15, dog16, dog17, dog18, dog19,
@@ -104,6 +105,40 @@ const leopardMarkers = [
 ];
 const cheetahMarkers =[ cheetah1, cheetah2, cheetah3, cheetah4, cheetah5, cheetah6, cheetah7, cheetah8, cheetah9, 
 cheetah10,cheetah11, cheetah12];
+const elephantMarkers = [elephant1, elephant2, elephant3,elephant4, elephant5 , elephant8, elephant9, elephant6,elephant7,elephant10, 
+    elephant11, elephant12, elephant13, elephant14, elephant15, elephant16, elephant17, elephant18, elephant19, elephant20, 
+    elephant21, elephant22, elephant23, elephant24, elephant25, elephant26, elephant27, elephant28, elephant29,elephant30, 
+    elephant31, elephant32, elephant33, elephant34, elephant35, elephant36, elephant37, elephant38, elephant39, elephant40, 
+    elephant41, elephant42, elephant43, elephant44, elephant45, elephant46, elephant47, elephant48, elephant49, elephant50, 
+    elephant51, elephant52, elephant53, elephant54, elephant55, elephant56 ];
+
+const rhinoMarkers = [
+        rhino1, rhino2, rhino3, rhino4, rhino5, rhino6, rhino7, rhino8, rhino9, 
+        rhino10, rhino11, rhino12, rhino13, rhino14, rhino15, rhino16, rhino17, rhino18, rhino19,
+        rhino20, rhino21, rhino22, rhino23, rhino24, rhino25, rhino26, rhino27, rhino28,rhino29 
+       
+    ];
+const giraffeMarkers = [
+    giraffe1, giraffe2, giraffe3, giraffe4, giraffe5, giraffe6,giraffe7, giraffe8 ]; 
+
+const zebraMarkers = [
+       zebra1];
+const antelopeMarkers = [
+        antelope1, antelope2, antelope3, antelope4, antelope5, antelope6 ]; 
+const ostrichMarkers = [
+    ostrich1, ostrich2, ostrich3, ostrich4, ostrich5, ostrich6,ostrich7, ostrich8 ]; 
+const hawkMarkers = [
+    hawk1, hawk2, hawk3, hawk4, hawk5, hawk6, hawk7, hawk8, hawk9, 
+    hawk10,hawk11, hawk12, hawk13, hawk14, hawk15
+];
+const parrotMarkers = [
+    parrot1, parrot2, parrot3, parrot4, parrot5, parrot6, parrot7, parrot8, parrot9, 
+    parrot10,parrot11, parrot12, parrot13, parrot14
+];
+const peacockMarkers =[ peacock1, peacock2, peacock3, peacock4, peacock5, peacock6, peacock7, peacock8, peacock9, 
+    ];
+const turkeyMarkers = [
+    turkey1, turkey2, turkey3];    
   if (currentValue <= 0 ) {
         toggleMarkers(lionMarkers.slice(0,37), lionMarkers.slice(37));
         toggleMarkers(camelMarkers.slice(0,68), camelMarkers.slice(68));
@@ -114,6 +149,17 @@ cheetah10,cheetah11, cheetah12];
         toggleMarkers(yakMarkers.slice(0,8), yakMarkers.slice(8));
         toggleMarkers(leopardMarkers.slice(0,15), leopardMarkers.slice(15));
         toggleMarkers(cheetahMarkers.slice(0,12), cheetahMarkers.slice(12));
+        toggleMarkers(elephantMarkers.slice(0,56), elephantMarkers.slice(56));
+        toggleMarkers(rhinoMarkers.slice(0,29), rhinoMarkers.slice(29));
+        toggleMarkers(giraffeMarkers.slice(0,8), giraffeMarkers.slice(8));
+        toggleMarkers(zebraMarkers.slice(0,1), zebraMarkers.slice(1));
+        toggleMarkers(antelopeMarkers.slice(0,6), antelopeMarkers.slice(6));
+        toggleMarkers(ostrichMarkers.slice(0,8), ostrichMarkers.slice(8));
+        toggleMarkers(hawkMarkers.slice(0,15), hawkMarkers.slice(15));
+        toggleMarkers(parrotMarkers.slice(0,14), parrotMarkers.slice(14));
+        toggleMarkers(peacockMarkers.slice(0,9), peacockMarkers.slice(9));
+        toggleMarkers(turkeyMarkers.slice(0,3), turkeyMarkers.slice(3));
+
 
 
 } 
@@ -127,7 +173,18 @@ cheetah10,cheetah11, cheetah12];
         toggleMarkers(yakMarkers.slice(0,1), yakMarkers.slice(1));
         toggleMarkers(leopardMarkers.slice(0,4), leopardMarkers.slice(4));
         toggleMarkers(cheetahMarkers.slice(0), cheetahMarkers.slice(0,12));
+        toggleMarkers(elephantMarkers.slice(0,6), elephantMarkers.slice(6));
+        toggleMarkers(rhinoMarkers.slice(0,5), rhinoMarkers.slice(5));
+        toggleMarkers(giraffeMarkers.slice(0), giraffeMarkers.slice(0,8));
+        toggleMarkers(zebraMarkers.slice(0), zebraMarkers.slice(0,1));
+        toggleMarkers(antelopeMarkers.slice(0), antelopeMarkers.slice(0,6));
+        toggleMarkers(ostrichMarkers.slice(0), ostrichMarkers.slice(0,8));
+        toggleMarkers(hawkMarkers.slice(0,3), hawkMarkers.slice(3));
+        toggleMarkers(parrotMarkers.slice(0), parrotMarkers.slice(0,14));
+        toggleMarkers(peacockMarkers.slice(0,1), peacockMarkers.slice(1));
+        toggleMarkers(turkeyMarkers.slice(0,1), turkeyMarkers.slice(1));
 
+        
     } if (currentValue >= 1000 && currentValue < 2000) {
         toggleMarkers(lionMarkers.slice(0, 6), lionMarkers.slice(6));
         toggleMarkers(camelMarkers.slice(0, 19), camelMarkers.slice(19));
@@ -138,6 +195,18 @@ cheetah10,cheetah11, cheetah12];
         toggleMarkers(yakMarkers.slice(0,2), yakMarkers.slice(2));
         toggleMarkers(leopardMarkers.slice(0,8), leopardMarkers.slice(8));
         toggleMarkers(cheetahMarkers.slice(0), cheetahMarkers.slice(0,12));
+        toggleMarkers(elephantMarkers.slice(0,12), elephantMarkers.slice(12));
+        toggleMarkers(rhinoMarkers.slice(0,10), rhinoMarkers.slice(10));
+        toggleMarkers(giraffeMarkers.slice(0), giraffeMarkers.slice(0,8));
+        toggleMarkers(zebraMarkers.slice(0), zebraMarkers.slice(0,1));
+        toggleMarkers(zebraMarkers.slice(0), zebraMarkers.slice(0,1));
+        toggleMarkers(antelopeMarkers.slice(0), antelopeMarkers.slice(0,6));
+        toggleMarkers(ostrichMarkers.slice(0,2), ostrichMarkers.slice(2));
+        toggleMarkers(hawkMarkers.slice(0,3), hawkMarkers.slice(3));
+        toggleMarkers(parrotMarkers.slice(0,1), parrotMarkers.slice(1));
+        toggleMarkers(peacockMarkers.slice(0,3), peacockMarkers.slice(3));
+        toggleMarkers(turkeyMarkers.slice(0,1), turkeyMarkers.slice(1));
+
 
     } if (currentValue >= 2000 && currentValue < 3000) {
         toggleMarkers(lionMarkers.slice(0, 11), lionMarkers.slice(11));
@@ -149,6 +218,16 @@ cheetah10,cheetah11, cheetah12];
         toggleMarkers(yakMarkers.slice(0,3), yakMarkers.slice(3));
         toggleMarkers(leopardMarkers.slice(0,8), leopardMarkers.slice(8));
         toggleMarkers(cheetahMarkers.slice(0), cheetahMarkers.slice(0,12));
+        toggleMarkers(elephantMarkers.slice(0,25), elephantMarkers.slice(25));
+        toggleMarkers(rhinoMarkers.slice(0,12), rhinoMarkers.slice(12));
+        toggleMarkers(giraffeMarkers.slice(0), giraffeMarkers.slice(0,8));
+        toggleMarkers(zebraMarkers.slice(0), zebraMarkers.slice(0,1));
+        toggleMarkers(antelopeMarkers.slice(0), antelopeMarkers.slice(0,6));
+        toggleMarkers(ostrichMarkers.slice(0,3), ostrichMarkers.slice(3));
+        toggleMarkers(hawkMarkers.slice(0,4), hawkMarkers.slice(4));
+        toggleMarkers(parrotMarkers.slice(0,3), parrotMarkers.slice(3));
+        toggleMarkers(peacockMarkers.slice(0,5), peacockMarkers.slice(5));
+        toggleMarkers(turkeyMarkers.slice(0,1), turkeyMarkers.slice(1));
 
     } if (currentValue >= 3000 && currentValue < 4000) {
         toggleMarkers(lionMarkers.slice(0, 11), lionMarkers.slice(11));
@@ -160,7 +239,17 @@ cheetah10,cheetah11, cheetah12];
         toggleMarkers(yakMarkers.slice(0,4), yakMarkers.slice(4));
         toggleMarkers(leopardMarkers.slice(0,8), leopardMarkers.slice(8));
         toggleMarkers(cheetahMarkers.slice(0), cheetahMarkers.slice(0,12));
-        
+        toggleMarkers(elephantMarkers.slice(0,25), elephantMarkers.slice(25));
+        toggleMarkers(rhinoMarkers.slice(0,12), rhinoMarkers.slice(12));
+        toggleMarkers(giraffeMarkers.slice(0), giraffeMarkers.slice(0,8));
+        toggleMarkers(zebraMarkers.slice(0), zebraMarkers.slice(0,1));
+        toggleMarkers(antelopeMarkers.slice(0), antelopeMarkers.slice(0,6));
+        toggleMarkers(ostrichMarkers.slice(0,3), ostrichMarkers.slice(3));
+        toggleMarkers(hawkMarkers.slice(0,4), hawkMarkers.slice(4));
+        toggleMarkers(parrotMarkers.slice(0,3), parrotMarkers.slice(3));
+        toggleMarkers(peacockMarkers.slice(0,5), peacockMarkers.slice(5));
+        toggleMarkers(turkeyMarkers.slice(0,1), turkeyMarkers.slice(1));
+
     } if (currentValue >= 4000 && currentValue < 5000) {
         toggleMarkers(lionMarkers.slice(0, 19), lionMarkers.slice(19));
         toggleMarkers(camelMarkers.slice(0, 41), camelMarkers.slice(41));
@@ -171,6 +260,17 @@ cheetah10,cheetah11, cheetah12];
         toggleMarkers(yakMarkers.slice(0,7), yakMarkers.slice(7));
         toggleMarkers(leopardMarkers.slice(0,10), leopardMarkers.slice(10));
         toggleMarkers(cheetahMarkers.slice(0,6), cheetahMarkers.slice(6));
+        toggleMarkers(elephantMarkers.slice(0,32), elephantMarkers.slice(32));
+        toggleMarkers(rhinoMarkers.slice(0,16), rhinoMarkers.slice(16));
+        toggleMarkers(giraffeMarkers.slice(0), giraffeMarkers.slice(0,8));
+        toggleMarkers(zebraMarkers.slice(0), zebraMarkers.slice(0,1));
+        toggleMarkers(antelopeMarkers.slice(0,2), antelopeMarkers.slice(2));
+        toggleMarkers(ostrichMarkers.slice(0,4), ostrichMarkers.slice(4));
+        toggleMarkers(hawkMarkers.slice(0,6), hawkMarkers.slice(6));
+        toggleMarkers(parrotMarkers.slice(0,8), parrotMarkers.slice(8));
+        toggleMarkers(peacockMarkers.slice(0,7), peacockMarkers.slice(7));
+        toggleMarkers(turkeyMarkers.slice(0,1), turkeyMarkers.slice(1));
+
 
     }if (currentValue >= 5000 && currentValue < 6000) {  
         toggleMarkers(lionMarkers.slice(0, 22), lionMarkers.slice(22));
@@ -182,6 +282,16 @@ cheetah10,cheetah11, cheetah12];
         toggleMarkers(yakMarkers.slice(0,7), yakMarkers.slice(7));
         toggleMarkers(leopardMarkers.slice(0,10), leopardMarkers.slice(10));
         toggleMarkers(cheetahMarkers.slice(0,7), cheetahMarkers.slice(7));
+        toggleMarkers(elephantMarkers.slice(0,37), elephantMarkers.slice(37));
+        toggleMarkers(rhinoMarkers.slice(0,19), rhinoMarkers.slice(19));
+        toggleMarkers(giraffeMarkers.slice(0), giraffeMarkers.slice(0,8));
+        toggleMarkers(zebraMarkers.slice(0), zebraMarkers.slice(0,1));
+        toggleMarkers(antelopeMarkers.slice(0,2), antelopeMarkers.slice(2));
+        toggleMarkers(ostrichMarkers.slice(0,4), ostrichMarkers.slice(4));
+        toggleMarkers(hawkMarkers.slice(0,9), hawkMarkers.slice(9));
+        toggleMarkers(parrotMarkers.slice(0,9), parrotMarkers.slice(9));
+        toggleMarkers(peacockMarkers.slice(0,7), peacockMarkers.slice(7));
+        toggleMarkers(turkeyMarkers.slice(0,1), turkeyMarkers.slice(1));
         
     }if (currentValue >= 6000 && currentValue < 7000) {
         toggleMarkers(lionMarkers.slice(0, 24), lionMarkers.slice(24));
@@ -193,6 +303,16 @@ cheetah10,cheetah11, cheetah12];
         toggleMarkers(yakMarkers.slice(0,7), yakMarkers.slice(7));
         toggleMarkers(leopardMarkers.slice(0,12), leopardMarkers.slice(12));
         toggleMarkers(cheetahMarkers.slice(0,11), cheetahMarkers.slice(11));
+        toggleMarkers(elephantMarkers.slice(0,43), elephantMarkers.slice(43));
+        toggleMarkers(rhinoMarkers.slice(0,21), rhinoMarkers.slice(21));
+        toggleMarkers(giraffeMarkers.slice(0), giraffeMarkers.slice(0,8));
+        toggleMarkers(zebraMarkers.slice(0), zebraMarkers.slice(0,1));
+        toggleMarkers(antelopeMarkers.slice(0,2), antelopeMarkers.slice(2));
+        toggleMarkers(ostrichMarkers.slice(0,4), ostrichMarkers.slice(4));
+        toggleMarkers(hawkMarkers.slice(0,12), hawkMarkers.slice(12));
+        toggleMarkers(parrotMarkers.slice(0,11), parrotMarkers.slice(11));
+        toggleMarkers(peacockMarkers.slice(0,7), peacockMarkers.slice(7));
+        toggleMarkers(turkeyMarkers.slice(0,1), turkeyMarkers.slice(1));
 
 
     }if (currentValue >= 7000 && currentValue < 8000) {
@@ -205,6 +325,16 @@ cheetah10,cheetah11, cheetah12];
         toggleMarkers(yakMarkers.slice(0,7), yakMarkers.slice(7));
         toggleMarkers(leopardMarkers.slice(0,15), leopardMarkers.slice(15));
         toggleMarkers(cheetahMarkers.slice(0,12), cheetahMarkers.slice(12));
+        toggleMarkers(elephantMarkers.slice(0,52), elephantMarkers.slice(52));
+        toggleMarkers(rhinoMarkers.slice(0,28), rhinoMarkers.slice(28));
+        toggleMarkers(giraffeMarkers.slice(0,8), giraffeMarkers.slice(8));
+        toggleMarkers(zebraMarkers.slice(0,1), zebraMarkers.slice(1));
+        toggleMarkers(antelopeMarkers.slice(0,6), antelopeMarkers.slice(6));
+        toggleMarkers(ostrichMarkers.slice(0,8), ostrichMarkers.slice(8));
+        toggleMarkers(hawkMarkers.slice(0,13), hawkMarkers.slice(13));
+        toggleMarkers(parrotMarkers.slice(0,14), parrotMarkers.slice(14));
+        toggleMarkers(peacockMarkers.slice(0,8), peacockMarkers.slice(8));
+        toggleMarkers(turkeyMarkers.slice(0,2), turkeyMarkers.slice(2));
 
     }
     if (currentValue >= 8000 && currentValue < 9000) {
@@ -217,6 +347,16 @@ cheetah10,cheetah11, cheetah12];
         toggleMarkers(yakMarkers.slice(0,8), yakMarkers.slice(8));
         toggleMarkers(leopardMarkers.slice(0,15), leopardMarkers.slice(15));
         toggleMarkers(cheetahMarkers.slice(0,12), cheetahMarkers.slice(12));
+        toggleMarkers(elephantMarkers.slice(0,56), elephantMarkers.slice(56));
+        toggleMarkers(rhinoMarkers.slice(0,29), rhinoMarkers.slice(29));
+        toggleMarkers(giraffeMarkers.slice(0,8), giraffeMarkers.slice(8));
+        toggleMarkers(zebraMarkers.slice(0,1), zebraMarkers.slice(1));
+        toggleMarkers(antelopeMarkers.slice(0,6), antelopeMarkers.slice(6));
+        toggleMarkers(ostrichMarkers.slice(0,8), ostrichMarkers.slice(8));
+        toggleMarkers(hawkMarkers.slice(0,15), hawkMarkers.slice(15));
+        toggleMarkers(parrotMarkers.slice(0,14), parrotMarkers.slice(14));
+        toggleMarkers(peacockMarkers.slice(0,9), peacockMarkers.slice(9));
+        toggleMarkers(turkeyMarkers.slice(0,3), turkeyMarkers.slice(3));
 
     }
 

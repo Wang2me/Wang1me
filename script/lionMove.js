@@ -18,7 +18,7 @@ window.onload = function () {
             let content = '<div class="info-window" id="infoContainer">' +
                 '<h1>' + marker.content.title + '</h1>' +
                 '<p>' + marker.content.description + '</p>' +
-                '<p class="info-reference">参考/Reference：' + marker.content.reference + '</p>' +
+                '<p class="info-reference">参考：' + marker.content.reference + '</p>' +
                 '<img class="info-image" src="' + marker.content.image + '" alt="">' +
                 '</div>';
     

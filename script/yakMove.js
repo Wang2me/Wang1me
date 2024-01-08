@@ -6,7 +6,7 @@
 ,{  title_cn: '描述',title_en: 'Description',
     description_cn: '氂牛是一種青藏高原及喜馬拉雅山區獨有的生物。如今的生物學家尚未還原氂牛的馴化過程。一些學者主張，氂牛的馴化起源自7300年前的青藏高原東部地區。'
     ,description_en:''
-	,reference:'1. Guillaume Jacques, Jade d’Alpoim Guedes and Zhang Shuya, “Yak Domestication: A Review of Linguistic, Archaeological, and Genetic Evidence”, Ethnobiology Letters, Vol. 12, No. 1, (2021), pp.103-114.'
+	,reference:'1. Guillaume Jacques, Jade d\'Alpoim Guedes and Zhang Shuya, “Yak Domestication: A Review of Linguistic, Archaeological, and Genetic Evidence”, Ethnobiology Letters, Vol. 12, No. 1, (2021), pp.103-114.'
     ,imag:''
     ,referenceUrl:''
  });				
@@ -79,7 +79,7 @@
     {title_cn: '描述',title_en: 'Description'  
      ,description_cn:'吐蕃是唐朝時位於青藏高原的古代政權。唐朝初期，吐蕃通過和親的方式與唐朝保持友好關係。長慶四年（公元824年），吐蕃向唐朝進貢過氂牛。此外，有的歷史學家認為吐蕃還繁育過氂牛和普通牛雜交的混血牛，並向唐朝進貢。'  
      ,description_en:''
-	,reference:'1. 劉昫等，《舊唐書·列傳第一百四十六下》（北京：中華書局，1997），頁5266。<br>&emsp;&emsp;&emsp;2. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T’ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 74-75.'
+	,reference:'1. 劉昫等，《舊唐書·列傳第一百四十六下》（北京：中華書局，1997），頁5266。<br>&emsp;&emsp;&emsp;2. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T\'ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 74-75.'
      ,image:''
      ,referenceUrl:''});
   //陝西西安	

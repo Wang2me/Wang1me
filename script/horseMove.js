@@ -297,7 +297,7 @@ markers.horse34 = createMarker({ lat:	35.0017,lng:104.6339 }, 'horse','甘肅隴
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'唐代在隴右地區設立了大量牧監來管理官方牲畜的牧養（今甘肅地區）。天寶十三載（公元754年），隴右牧所管理的牛、馬、羊、駱駝等牲畜共計605603頭。其中馬有325792匹，駱駝有563頭。美國著名漢學家薛愛華認為，大量遊牧民族在唐朝時遷入中國，包括突厥人、吐谷渾人、粟特人等。這些移民很可能被官方牧場大量僱傭進行放牧工作。'  
  ,description_en:''
-,reference:'1. 歐陽修、宋祁，《新唐書·志第四十》（北京：中華書局，1997），頁1338。<br>&emsp;&emsp;&emsp;2. 王溥，《唐會要·卷七十二》（中國國家圖書館藏清乾隆武英殿印本）。<br>&emsp;&emsp;&emsp;3. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T’ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 71.'  
+,reference:'1. 歐陽修、宋祁，《新唐書·志第四十》（北京：中華書局，1997），頁1338。<br>&emsp;&emsp;&emsp;2. 王溥，《唐會要·卷七十二》（中國國家圖書館藏清乾隆武英殿印本）。<br>&emsp;&emsp;&emsp;3. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T\'ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 71.'  
  ,image:''
  ,referenceUrl:''});
 

@@ -207,7 +207,7 @@ markers.dog23 = createMarker({ lat:41.0196,lng:28.9591	 }, 'dog','土耳其伊�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'武德二年（公元619年），高昌國（今新疆吐魯番）向唐朝進貢了一對小型長毛犬，據說來自於拂菻。拂菻，又稱大秦，是中國古籍中對東羅馬帝國的稱呼。拂菻狗傳入中國後就成為了唐朝宮廷中的寵物。唐代畫家周昉繪製的《簪花仕女圖》中就可以見到拂菻狗和宮女一同玩耍的場景。'  
  ,description_en:''
-,reference:'1. 劉昫等，《舊唐書·列傳第一百四十八》（北京：中華書局，1997），頁5294。<br>&emsp;&emsp;&emsp2. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T’ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 77.<br>&emsp;&emsp;&emsp3. 唐人簪花仕女圖卷，遼寧省博物館網站， lnmuseum.com.cn/#/collect/detail?id=21010302862117A000064&pageType=1。'
+,reference:'1. 劉昫等，《舊唐書·列傳第一百四十八》（北京：中華書局，1997），頁5294。<br>&emsp;&emsp;&emsp2. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T\'ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 77.<br>&emsp;&emsp;&emsp3. 唐人簪花仕女圖卷，遼寧省博物館網站， lnmuseum.com.cn/#/collect/detail?id=21010302862117A000064&pageType=1。'
  ,image:''
  ,referenceUrl:''});
 //新疆吐魯番，陝西西安	lat:42.9453621,lng:89.1707-lat:34.2555,lng:108.9208
@@ -424,7 +424,7 @@ markers.dog48 = createMarker({lat:51.2139,lng:3.2097 }, 'dog','比利時布魯�
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'小型犬是歐洲畫家們喜愛的題材之一，我們可以在大量的繪畫中看到作為寵物的小型犬和人類的緊密關係。例如，在荷蘭畫家揚·范·艾克的油畫《阿諾菲尼的婚禮》中就出現了一隻布魯塞爾格林芬犬。這隻小狗可能象徵著布魯日商人阿諾菲尼和妻子對婚姻的忠誠。'  
  ,description_en:''
-,reference:'1. Van Eyck’s Arnolfini Portrait, The National Gallery Website, www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait.'  
+,reference:'1. Van Eyck\'s Arnolfini Portrait, The National Gallery Website, www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait.'  
  ,image:''
  ,referenceUrl:''});     				
 }
@@ -468,7 +468,7 @@ markers.dog53 = createMarker({lat:23.1247,lng:113.2493}, 'dog','廣東廣州',{ 
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'清代外銷瓷在歐美十分流行。歐美商人甚至會來到廣州專門訂製他們想要的瓷器圖案。獵犬是清代外銷瓷器的場景題材之一，相關的收藏品至今在國際拍賣會上仍十分常見。	'  
  ,description_en:''
-,reference:'1. Live like a Rockefeller-A Chinese export dinner service in the ""Rockefeller"" pattern, Christie’s Website, (11 January 2018), www.christies.com/en/stories/live-like-a-rockefeller-a-chinese-export-dinner-service-in-the-rockefeller-pattern-2c9f68ae1eb04eac9f017711e4993446.<br>&emsp;&emsp;&emsp;2. Pair of Chinese export porcelain recumbent Spaniel dogs decorated with an iron-red coat, Santos Lodon Website, www.santoslondon.com/products/pair-of-chinese-export-porcelain-recumbent-spaniel-dogs-decorated-with-an-iron-red-coat-qianlong.'  
+,reference:'1. Live like a Rockefeller-A Chinese export dinner service in the ""Rockefeller"" pattern, Christie\'s Website, (11 January 2018), www.christies.com/en/stories/live-like-a-rockefeller-a-chinese-export-dinner-service-in-the-rockefeller-pattern-2c9f68ae1eb04eac9f017711e4993446.<br>&emsp;&emsp;&emsp;2. Pair of Chinese export porcelain recumbent Spaniel dogs decorated with an iron-red coat, Santos Lodon Website, www.santoslondon.com/products/pair-of-chinese-export-porcelain-recumbent-spaniel-dogs-decorated-with-an-iron-red-coat-qianlong.'  
  ,image:''
  ,referenceUrl:''}); 
 //美國紐約，英國倫敦	-lat:40.7137549,lng:-74.0189-lat:51.4997143,lng:-0.1162

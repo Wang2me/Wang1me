@@ -61,7 +61,7 @@ function switchLanguageTo(language) {
                         'cat10', 'cat11', 'cat12', 'cat13', 'cat14', 'cat15', 'cat16', 'cat17', 'cat18', 'cat19',
                         'cat20', 'cat21', 'cat22', 'cat23', 'cat24', 'cat25', 'cat26', 'cat27', 'cat28','cat29', 
                         'cat30', 'cat31', 'cat32', 'cat33', 'cat34', 'cat35', 'cat36', 'cat37', 'cat38', 
-          
+           
            
                 'dog1', 'dog2', 'dog3', 'dog4', 'dog5', 'dog6', 'dog7', 'dog8', 'dog9', 
                 'dog10','dog11', 'dog12', 'dog13', 'dog14', 'dog15', 'dog16', 'dog17', 'dog18', 'dog19',
@@ -81,7 +81,27 @@ function switchLanguageTo(language) {
                 'leopard10','leopard11', 'leopard12', 'leopard13', 'leopard14', 'leopard15',
             
              'cheetah1', 'cheetah2', 'cheetah3', 'cheetah4', 'cheetah5', 'cheetah6', 'cheetah7', 'cheetah8', 'cheetah9', 
-            'cheetah10','cheetah11', 'cheetah12'
+            'cheetah10','cheetah11', 'cheetah12',
+
+            'elephant1', 'elephant2', 'elephant3','elephant4', 'elephant5 ', 'elephant8', 'elephant9', 'elephant6','elephant7','elephant10', 
+    'elephant11', 'elephant12', 'elephant13', 'elephant14', 'elephant15', 'elephant16', 'elephant17', 'elephant18', 'elephant19', 'elephant20', 
+    'elephant21', 'elephant22', 'elephant23', 'elephant24', 'elephant25', 'elephant26', 'elephant27', 'elephant28', 'elephant29','elephant30', 
+    'elephant31', 'elephant32', 'elephant33', 'elephant34', 'elephant35', 'elephant36', 'elephant37', 'elephant38', 'elephant39', 'elephant40', 
+    'elephant41', 'elephant42', 'elephant43', 'elephant44', 'elephant45', 'elephant46', 'elephant47', 'elephant48', 'elephant49', 'elephant50', 
+    'elephant51', 'elephant52', 'elephant53', 'elephant54', 'elephant55', 'elephant56',
+    'rhino1', 'rhino2', 'rhino3', 'rhino4', 'rhino5', 'rhino6', 'rhino7', 'rhino8', 'rhino9', 
+        'rhino10', 'rhino11', 'rhino12', 'rhino13', 'rhino14', 'rhino15', 'rhino16', 'rhino17', 'rhino18', 'rhino19',
+        'rhino20', 'rhino21', 'rhino22', 'rhino23', 'rhino24', 'rhino25', 'rhino26', 'rhino27', 'rhino28','rhino29', 
+        'giraffe1', 'giraffe2', 'giraffe3', 'giraffe4', 'giraffe5', 'giraffe6', 'giraffe7', 'giraffe8',
+        'zebra1',
+        'antelope1', 'antelope2', 'antelope3', 'antelope4', 'antelope5', 'antelope6',
+        'ostrich1', 'ostrich2', 'ostrich3', 'ostrich4', 'ostrich5', 'ostrich6', 'ostrich7', 'ostrich8',
+        'hawk1', 'hawk2', 'hawk3', 'hawk4', 'hawk5', 'hawk6', 'hawk7', 'hawk8', 'hawk9', 
+        'hawk10','hawk11', 'hawk12', 'hawk13', 'hawk14', 'hawk15',
+        'parrot1', 'parrot2', 'parrot3', 'parrot4', 'parrot5', 'parrot6', 'parrot7', 'parrot8', 'parrot9', 
+        'parrot10','parrot11', 'parrot12', 'parrot13', 'parrot14',
+        'peacock1', 'peacock2', 'peacock3', 'peacock4', 'peacock5', 'peacock6', 'peacock7', 'peacock8', 'peacock9', 
+        'turkey1', 'turkey2', 'turkey3',
                 // 其他标记的名称
             ];
 
@@ -90,6 +110,8 @@ function switchLanguageTo(language) {
         if (markers[markerName] && markers[markerName].content) {
             markers[markerName].content.description = markers[markerName].content['description_' + language];
             markers[markerName].content.title = markers[markerName].content['title_' + language];
+             //markers[markerName].title = '';
+
             // 可以在这里处理其他需要变更的属性...
         }
     }
