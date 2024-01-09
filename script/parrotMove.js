@@ -63,9 +63,9 @@ markers.parrot3 = createMarker({ lat:11.5537,lng:104.9140}, 'parrot','柬埔寨�
    
 markers.parrot5 = createMarker({ lat:15.8803,lng:108.3380 }, 'parrot','越南會安',{ A:['parrot'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['東南亞'] },
 {title_cn: '描述',title_en: 'Description'  
- ,description_cn:'林邑（今越南中部）在貞觀五年（公元631年）向唐朝進貢了一隻五色鸚鵡和一隻白鸚鵡。其中這隻白鸚鵡可以說話，唐太宗憐憫這隻鸚鵡，最後把它放生了。(公元前117年)，霍去病因病去世，年僅二十四歲。霍去病墓位於如今的陝西省興平市，距離埋葬漢武帝的茂陵儘一千米。考古學家在霍去病墓中發掘了超過5000件文物，其中最有代表性的是｢鎏金銅馬｣。這件銅馬長76釐米，高62釐米，重逹26公斤，是以來自大宛的汗血馬為原型製造的。它的出現表明了由中亞地區傳入中國的馬在古代軍事上的重要作用。'  
+ ,description_cn:'林邑（今越南中部）在貞觀五年（公元631年）向唐朝進貢了一隻五色鸚鵡和一隻白鸚鵡。其中這隻白鸚鵡可以說話，唐太宗憐憫這隻鸚鵡，最後把它放生了。'  
  ,description_en:'In 631, Champa (present-day central Vietnam) sent a chattering lory and a white parrot to the Tang Dynasty 唐朝. The white parrot could talk with Emperor Taizong of the Tang Dynasty 唐太宗. He pitied the parrot and eventually released it into the wild.'
-,reference:''
+,reference:'1. 劉昫等，《舊唐書·列傳第一百四十七》（北京：中華書局，1997），頁5270。'
  ,imag:''});	
  	
  

@@ -11,15 +11,15 @@
     ,referenceUrl:''
  });
 				
-markers.hawk2 = createMarker({ lat:43.5372,lng:118.6568}, 'hawk','內蒙古巴林右旗',{ A:['hawk'], B:['史前至夏商周'],C:['宗教信仰'],D:['其他'],E:['東亞'] },
+markers.hawk2 = createMarker({lat:34.5629,lng:109.6891}, 'hawk','陝西渭南市華州區太平莊村',{ A:['hawk'], B:['史前至夏商周'],C:['宗教信仰'],D:['其他'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
- ,description_cn:'紅山文化是中國北方地區重要的新石器文化之一，其歷史可追溯至公元前4700年至公元前2900年。在紅山文化的多處遺址中，考古學家們發現了大量鳥形玉器。這些玉器造型簡單，推測可能是參考鷹或者貓頭鷹進行雕刻的。這些考古證據體現了中國原始文明中對鳥類的崇拜。'  
- ,description_en:'The Hongshan Culture 紅山文化 is one of the major Neolithic cultures in northern China, dating from 4700 BCE to 2900 BCE. Archaeologists have found a large number of bird-shaped jades at different sites of the Hongshan Culture. These bird-shaped jades are simple in shape and were probably carved with reference to eagles or owls. These archaeological evidences reflect the worship of birds in the primitive civilization of China.'
-,reference:'1. 紅山文化鳥形玉器，中國大百科全書網站，www.zgbk.com/ecph/words?SiteID=1&ID=230890&Type=bkzyb。'  
+ ,description_cn:'仰韶文化是黃河流域重要的新石器文化之一，其歷史可追溯至公元前5000年至公元前3000年。仰韶文化在考古學上以陶器著稱，例如1958年出土的鷹形陶鼎。該器皿以站立的鷹為原型，考古學家們推測可能與當時的祭祀活動有關。這一考古證據也體現了中國原始文明中對鳥類的崇拜。'  
+ ,description_en:'The Yangshao Culture 仰韶文化 is one of the important Neolithic cultures from the Yellow River Basin, dating back from 5000 BCE to 3000 BCE. The Yangshao Culture is also known for its pottery, such as the Eagle-shaped Pottery Tripod discovered in 1959. The vessel was modeled on a standing eagle, which archaeologists have hypothesized may have been associated with ritual activities. This archaeological evidence also represents the worship of birds in Chinese primitive civilization.'
+,reference:'1. 鷹形陶鼎，中國國家博物館www.chnmuseum.cn/zp/zpml/kgdjp/202008/t20200824_247248.shtml。	1. 鷹形陶鼎，中國國家博物館www.chnmuseum.cn/zp/zpml/kgdjp/202008/t20200824_247248.shtml。'  
  ,image:''
  ,referenceUrl:''
 });
- 
+						
 markers.hawk3 = createMarker({ lat:39.7011,lng:109.1706}, 'hawk','內蒙古杭錦旗阿魯柴登',{ A:['hawk'], B:['史前至夏商周'],C:['身份象徵'],D:['陸上絲綢之路'],E:['東亞']},
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'匈奴是中國古代的遊牧民族部落，起源自蒙古高原。1972年，考古學家在內蒙古發現了一座戰國時期的匈奴墓葬。這座墓葬出土了大量金銀器，其中最著名的就是｢金頂鷹冠飾｣。該文物由黃金打造，雕刻有多種動物造型，包括鷹、虎、馬和羊。考古學家們認為，這個頭冠應該是匈奴單于的王冠。'  
@@ -59,7 +59,7 @@ markers.hawk4 = createMarker({ lat:34.6361,lng:112.4430}, 'hawk','河南洛陽',
     
 markers.hawk5 = createMarker({ lat:34.3246,lng:108.7072 }, 'hawk','陝西咸陽',{ A:['hawk'],B:['唐'],C:['文化娛樂'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
- ,description_cn:'劉安狩獵文化在唐朝十分流行，因此鷹、鶻等猛禽受到多位唐朝皇帝的喜愛，例如唐太宗和唐玄宗。章懷太子墓中壁畫《狩獵出行圖》描繪了唐朝皇族成員集體出獵的場景，其中就有騎士懷抱獵鷹的形象。是西漢皇族，被封為淮南王。在他所編著的《淮南子》中曾有圈養虎豹的記載。而《漢書》中也有經過馴服的虎豹可以聽從人類的指令的記載。這些記載說明，豹作為觀賞動物飼養在皇家園林中在漢代是非常流行的。(公元前117年)，霍去病因病去世，年僅二十四歲。霍去病墓位於如今的陝西省興平市，距離埋葬漢武帝的茂陵儘一千米。考古學家在霍去病墓中發掘了超過5000件文物，其中最有代表性的是｢鎏金銅馬｣。這件銅馬長76釐米，高62釐米，重逹26公斤，是以來自大宛的汗血馬為原型製造的。它的出現表明了由中亞地區傳入中國的馬在古代軍事上的重要作用。'  
+ ,description_cn:'劉安狩獵文化在唐朝十分流行，因此鷹、鶻等猛禽受到多位唐朝皇帝的喜愛，例如唐太宗和唐玄宗。章懷太子墓中壁畫《狩獵出行圖》描繪了唐朝皇族成員集體出獵的場景，其中就有騎士懷抱獵鷹的形象。是西漢皇族，被封為淮南王。在他所編著的《淮南子》中曾有圈養虎豹的記載。而《漢書》中也有經過馴服的虎豹可以聽從人類的指令的記載。這些記載說明，豹作為觀賞動物飼養在皇家園林中在漢代是非常流行的。'  
  ,description_en:'Hunting culture was very popular in the Tang Dynasty 唐朝, therefore hawks, falcons, and other raptors were favored by many Tang emperors, such as Emperor Taizong 太宗 and Emperor Xuanzong 玄宗. There is a mural in the Tomb of Prince Zhanghuai 章懷太子墓 that depicts royal family members of the Tang Dynasty on a group hunting trip, and there is an image of a knight embracing a falcon in this painting.'
 ,reference:'1. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T’ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 93.<br>&emsp;&emsp;&emsp;2. 陝西省博物館、乾縣文物局唐墓發掘組，〈章懷太子墓發掘簡報〉，《文物》，期11（1972年11月），頁15-16。'
  ,imag:''});	

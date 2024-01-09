@@ -669,7 +669,7 @@ markers.rhino29.setPosition(initialCoords_rhino29);
     if (currentValue >= 6000 && currentValue <7000) {
    
             var points_20 = [initialCoords_rhino20,  jibudi,guli,xilan,maliujia,newCoords_rhino20_1, newCoords_rhino20_1];
-            var points_21 = [initialCoords_rhino21,  jibudi,guli,xilan,maliujia,newCoords_rhino21_1, newCoords_rhino21_1];
+            var points_21 = [initialCoords_rhino21,  maliujia,taihai,zhangjiagang,newCoords_rhino21_1, newCoords_rhino21_1];
             
         // 计算当前阶段的目标点的索引
             var targetIndex_20 = Math.floor((currentValue - 6000) / (1000 / (points_20.length-1)));

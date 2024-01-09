@@ -49,28 +49,14 @@ markers.giraffe6 = createMarker({ lat:-3.2197,lng:40.1148 }, 'giraffe','肯尼�
 	,image:''
 	,referenceUrl:''});
 
-markers.giraffe7 = createMarker({ lat:27.1376,lng:57.0724 }, 'giraffe','伊朗米納卜',{ A:['giraffe'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['西亞']},
-   {title_cn: '描述',title_en: 'Description'  
-	,description_cn:'忽魯謨斯，即如今伊朗米納卜，地處霍爾木茲海峽，是進入波斯灣的必經之路。鄭和的船隊曾多次到達此處。1414年，忽魯謨斯國王跟隨鄭和的船隊返回北京，向永樂皇帝進貢馬匹。此外，獅子和長頸鹿也是忽魯謨斯經常攜帶的貢品。'  
-	,description_en:'Hormuz, the present-day Minab in Iran, was located on the essential route into the Persian Gulf. Zheng He 鄭和 visited this place on several occasions. In 1414, the King of Hormuz visited Beijing 北京 with Zheng He and offered horses to Yongle Emperor 永樂皇帝 as tribute. In addition, lions and giraffes were often the tributes from Hormuz.'
-	 ,reference:'1. 張廷玉等，《明史·列傳第二百十四》（北京：中華書局，1997），頁8452。<br>&emsp;&emsp;&emsp;2. 馬歡，《瀛涯勝覽》（北京：中華書局據寶顏堂秘笈本影印，1985），頁85-86。'
-    ,image:''
-	,referenceUrl:''});
-    
-markers.giraffe8 = createMarker({ lat:12.8208,lng:45.0173},'giraffe','也門亞丁',{ A:['giraffe'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['西亞'] },
-   {title_cn: '描述',title_en: 'Description'  
-	,description_cn:'亞丁在明代被稱為阿丹。據史書記載，阿丹國王十分崇敬中國，用大量珍寶與鄭和進行貿易。鄭和船隊從阿丹帶回了長頸鹿、獅子、豹、花貓、鴕鳥等動物。'  
-	,description_en:'The king of Aden greatly respected the Ming Dynasty 明朝 and traded with Zheng He 鄭和 for a large number of treasures. Zheng He\'s fleet brought back giraffes, lions, leopards, spotted cats, ostriches and other animals from Aden.'
-	 ,reference:'1. 馬歡，《瀛涯勝覽》（北京：中華書局據寶顏堂秘笈本影印，1985），頁71。'
-     ,image:''
-	,referenceUrl:''});
+
 
     
 // 获取时间轴元素和标记
 var timeline = document.getElementById('timeline');
 var slider = document.getElementById('slider');
 var giraffes = [
-    'giraffe1', 'giraffe2', 'giraffe3', 'giraffe4', 'giraffe5', 'giraffe6', 'giraffe7', 'giraffe8'
+    'giraffe1', 'giraffe2', 'giraffe3', 'giraffe4', 'giraffe5', 'giraffe6'
 ];
 
 for (var i = 0; i < giraffes.length; i++) {
@@ -99,8 +85,7 @@ var newCoords_giraffe3_1= RandomCoords(beijing);
 var newCoords_giraffe4_1= RandomCoords(beijing);
 var newCoords_giraffe5_1= RandomCoords(beijing);
 var newCoords_giraffe6_1= RandomCoords(beijing);
-var newCoords_giraffe7_1= RandomCoords(beijing);
-var newCoords_giraffe8_1= RandomCoords(beijing);
+
 
 
 var luoyang= {lat:34.6321,lng:112.4470}//洛阳
@@ -140,8 +125,7 @@ var initialCoords_giraffe3 = getInitialCoords(giraffe3);
 var initialCoords_giraffe4 = getInitialCoords(giraffe4);
 var initialCoords_giraffe5 = getInitialCoords(giraffe5);
 var initialCoords_giraffe6 = getInitialCoords(giraffe6);
-var initialCoords_giraffe7 = getInitialCoords(giraffe7);
-var initialCoords_giraffe8 = getInitialCoords(giraffe8);
+
 
 
 
@@ -160,8 +144,7 @@ slider.addEventListener('input', function() {
         markers.giraffe4.setPosition(initialCoords_giraffe4);
         markers.giraffe5.setPosition(initialCoords_giraffe5);
         markers.giraffe6.setPosition(initialCoords_giraffe6);
-        markers.giraffe7.setPosition(initialCoords_giraffe7);
-        markers.giraffe8.setPosition(initialCoords_giraffe8);
+
         
      
     }
@@ -217,18 +200,14 @@ slider.addEventListener('input', function() {
         var points_4 = [initialCoords_giraffe4,  guli,xilan,maliujia,maliujia,taihai,zhangjiagang,newCoords_giraffe4_1, newCoords_giraffe4_1];
         var points_5 = [initialCoords_giraffe5,  jibudi,guli,xilan,maliujia,taihai,zhangjiagang,newCoords_giraffe5_1, newCoords_giraffe5_1];
         var points_6 = [initialCoords_giraffe6,  guli,xilan,palk,maliujia,taihai,taihai,zhangjiagang,newCoords_giraffe6_1, newCoords_giraffe6_1];
-        var points_7 = [initialCoords_giraffe7,  guli,palk,maliujia,taihai,zhangjiagang,zhangjiagang,newCoords_giraffe7_1, newCoords_giraffe7_1];
-        var points_8 = [initialCoords_giraffe8,  guli,guli,xilan,maliujia,taihai,taihai,zhangjiagang,newCoords_giraffe8_1, newCoords_giraffe8_1];
-
+        
     // 计算当前阶段的目标点的索引
         var targetIndex_2 = Math.floor((currentValue - 7000) / (1000 / (points_2.length-1)));
         var targetIndex_3 = Math.floor((currentValue - 7000) / (1000 / (points_3.length-1)));
         var targetIndex_4 = Math.floor((currentValue - 7000) / (1000 / (points_4.length-1)));
         var targetIndex_5 = Math.floor((currentValue - 7000) / (1000 / (points_5.length-1)));
         var targetIndex_6 = Math.floor((currentValue - 7000) / (1000 / (points_6.length-1)));
-        var targetIndex_7 = Math.floor((currentValue - 7000) / (1000 / (points_7.length-1)));
-        var targetIndex_8 = Math.floor((currentValue - 7000) / (1000 / (points_8.length-1)));
-
+        
 
     // 计算插值百分比
         var percentage_2 = (currentValue - 7000) % (1000 / (points_2.length-1)) / (1000 / (points_2.length-1));
@@ -236,18 +215,14 @@ slider.addEventListener('input', function() {
         var percentage_4 = (currentValue - 7000) % (1000 / (points_4.length-1)) / (1000 / (points_4.length-1));
         var percentage_5 = (currentValue - 7000) % (1000 / (points_5.length-1)) / (1000 / (points_5.length-1));
         var percentage_6 = (currentValue - 7000) % (1000 / (points_6.length-1)) / (1000 / (points_6.length-1));
-        var percentage_7 = (currentValue - 7000) % (1000 / (points_7.length-1)) / (1000 / (points_7.length-1));
-        var percentage_8 = (currentValue - 7000) % (1000 / (points_8.length-1)) / (1000 / (points_8.length-1));
-
+        
 
         percentage_2 = Math.min(1, Math.max(0, percentage_2));
         percentage_3 = Math.min(1, Math.max(0, percentage_3));
         percentage_4 = Math.min(1, Math.max(0, percentage_4));
         percentage_5 = Math.min(1, Math.max(0, percentage_5));
         percentage_6 = Math.min(1, Math.max(0, percentage_6));
-        percentage_7 = Math.min(1, Math.max(0, percentage_7));
-        percentage_8 = Math.min(1, Math.max(0, percentage_8));
-
+        
 
     // 计算插值的新位置
 
@@ -278,16 +253,7 @@ slider.addEventListener('input', function() {
         var interpolatedLng_6 = points_6[targetIndex_6].lng + lngDiff * percentage_6
 
         
-        var latDiff = points_7[targetIndex_7 + 1].lat - points_7[targetIndex_7].lat;
-        var lngDiff = points_7[targetIndex_7 + 1].lng - points_7[targetIndex_7].lng;
-        var interpolatedLat_7 = points_7[targetIndex_7].lat + latDiff * percentage_7
-        var interpolatedLng_7 = points_7[targetIndex_7].lng + lngDiff * percentage_7
-
-        var latDiff = points_8[targetIndex_8 + 1].lat - points_8[targetIndex_8].lat;
-        var lngDiff = points_8[targetIndex_8 + 1].lng - points_8[targetIndex_8].lng;
-        var interpolatedLat_8 = points_8[targetIndex_8].lat + latDiff * percentage_8
-        var interpolatedLng_8 = points_8[targetIndex_8].lng + lngDiff * percentage_8
-    
+        
         
 
         giraffe2.setPosition({ lat: interpolatedLat_2, lng: interpolatedLng_2 });     
@@ -295,9 +261,7 @@ slider.addEventListener('input', function() {
         giraffe4.setPosition({ lat: interpolatedLat_4, lng: interpolatedLng_4 });
         giraffe5.setPosition({ lat: interpolatedLat_5, lng: interpolatedLng_5 });
         giraffe6.setPosition({ lat: interpolatedLat_6, lng: interpolatedLng_6 });     
-        giraffe7.setPosition({ lat: interpolatedLat_7, lng: interpolatedLng_7 });
-        giraffe8.setPosition({ lat: interpolatedLat_8, lng: interpolatedLng_8 });
-       
+        
     }
 
     //清

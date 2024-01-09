@@ -19,6 +19,14 @@ var iconInfo = {
     parrot:{ url: '/media/animal_icon/parrot.png', scaledSize: new google.maps.Size(25, 25) },
     peacock:{ url: '/media/animal_icon/peacock.png', scaledSize: new google.maps.Size(25, 25) },
     turkey:{ url: '/media/animal_icon/turkey.png', scaledSize: new google.maps.Size(25, 25) },
+    muscovy:{url: '/media/animal_icon/muscovy.png', scaledSize: new google.maps.Size(25, 25)},
+    swallow:{ url: '/media/animal_icon/swallow.png', scaledSize: new google.maps.Size(25, 25) },
+    seal:{ url: '/media/animal_icon/seal.png', scaledSize: new google.maps.Size(25, 25) },
+    otter:{ url: '/media/animal_icon/otter.png', scaledSize: new google.maps.Size(25, 25) },
+    beaver:{ url: '/media/animal_icon/beaver.png', scaledSize: new google.maps.Size(25, 25) },
+    shell:{ url: '/media/animal_icon/shell.png', scaledSize: new google.maps.Size(25, 25) },
+    turtle:{ url: '/media/animal_icon/turtle.png', scaledSize: new google.maps.Size(25, 25) },
+    coral:{ url: '/media/animal_icon/coral.png', scaledSize: new google.maps.Size(25, 25) },
 
 };
 
@@ -252,6 +260,14 @@ const checkboxList = [
     { id: 'parrot-Checkbox', value: 'parrot' },
     { id: 'peacock-Checkbox', value: 'peacock' },
     { id: 'turkey-Checkbox', value: 'turkey' },
+    { id: 'muscovy-Checkbox', value: 'muscovy' },
+    { id: 'swallow-Checkbox', value: 'swallow' },
+    { id: 'seal-Checkbox', value: 'seal' },
+    { id: 'otter-Checkbox', value: 'otter' },
+    { id: 'beaver-Checkbox', value: 'beaver' },
+    { id: 'shell-Checkbox', value: 'shell' },
+    { id: 'turtle-Checkbox', value: 'turtle' },
+    { id: 'coral-Checkbox', value: 'coral' },
     
 
 
@@ -282,7 +298,8 @@ const checkboxList = [
     { id: 'dongnan-Checkbox', value: '東南亞' },
     { id: 'feizhou-Checkbox', value: '非洲' },
     { id: 'ouzhou-Checkbox', value: '歐洲' },
-    { id: 'meizhou-Checkbox', value: '美洲' },
+    { id: 'beimeizhou-Checkbox', value: '北美洲' },
+    { id: 'nanmeizhou-Checkbox', value: '南美洲' },
     { id: 'dayagnzhou-Checkbox', value: '大洋洲' },
    
 ];

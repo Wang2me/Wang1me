@@ -92,8 +92,8 @@ function switchLanguageTo(language) {
     'rhino1', 'rhino2', 'rhino3', 'rhino4', 'rhino5', 'rhino6', 'rhino7', 'rhino8', 'rhino9', 
         'rhino10', 'rhino11', 'rhino12', 'rhino13', 'rhino14', 'rhino15', 'rhino16', 'rhino17', 'rhino18', 'rhino19',
         'rhino20', 'rhino21', 'rhino22', 'rhino23', 'rhino24', 'rhino25', 'rhino26', 'rhino27', 'rhino28','rhino29', 
-        'giraffe1', 'giraffe2', 'giraffe3', 'giraffe4', 'giraffe5', 'giraffe6', 'giraffe7', 'giraffe8',
-        'zebra1',
+        'giraffe1', 'giraffe2', 'giraffe3', 'giraffe4', 'giraffe5', 'giraffe6',
+        'zebra1','zebra2','zebra3',
         'antelope1', 'antelope2', 'antelope3', 'antelope4', 'antelope5', 'antelope6',
         'ostrich1', 'ostrich2', 'ostrich3', 'ostrich4', 'ostrich5', 'ostrich6', 'ostrich7', 'ostrich8',
         'hawk1', 'hawk2', 'hawk3', 'hawk4', 'hawk5', 'hawk6', 'hawk7', 'hawk8', 'hawk9', 
@@ -102,7 +102,16 @@ function switchLanguageTo(language) {
         'parrot10','parrot11', 'parrot12', 'parrot13', 'parrot14',
         'peacock1', 'peacock2', 'peacock3', 'peacock4', 'peacock5', 'peacock6', 'peacock7', 'peacock8', 'peacock9', 
         'turkey1', 'turkey2', 'turkey3',
-                // 其他标记的名称
+        'muscovy1', 'muscovy2', 'muscovy3', 'muscovy4', 'muscovy5',
+        'swallow1', 'swallow2', 'swallow3', 'swallow4', 'swallow5', 'swallow6', 'swallow7',
+        'seal1', 'seal2', 'seal3', 'seal4', 
+        'otter1','otter2', 
+        'beaver1', 'beaver2', 'beaver3', 'beaver4', 
+        'shell1', 'shell2', 'shell3', 'shell4', 'shell5', 'shell6', 'shell7', 'shell8', 'shell9', 
+        'shell10',
+        'turtle1', 'turtle2', 'turtle3', 'turtle4', 'turtle5', 'turtle6', 'turtle7', 'turtle8', 'turtle9', 
+        'coral1', 'coral2', 'coral3', 'coral4', 'coral5', 'coral6', 'coral7', 'coral8',
+             // 其他标记的名称
             ];
 
     for (var i = 0; i < markersToUpdate.length; i++) {

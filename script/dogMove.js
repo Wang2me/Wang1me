@@ -77,7 +77,7 @@ markers.dog8 = createMarker({lat:34.3620,lng:107.2281 }, 'dog','陝西寶雞',{ 
 
 markers.dog9 = createMarker({ lat:40.7465,lng:14.4963 }, 'dog','意大利龐培',{ A:['dog'],B:['秦漢'],C:['軍事'],D:['陸上絲綢之路'],E:['歐洲'] },
 {title_cn: '描述',title_en: 'Description'  
- ,description_cn:'古羅馬人飼養大型犬以作軍犬或護衛，尤其是黑色的大型犬，因為他們認為黑狗可以令入侵者感到害怕。黑狗形象在古羅馬文明中很常見，例如龐培古城的馬賽克陶瓷黑狗裝飾畫。(公元前117年)，霍去病因病去世，年僅二十四歲。霍去病墓位於如今的陝西省興平市，距離埋葬漢武帝的茂陵儘一千米。考古學家在霍去病墓中發掘了超過5000件文物，其中最有代表性的是｢鎏金銅馬｣。這件銅馬長76釐米，高62釐米，重逹26公斤，是以來自大宛的汗血馬為原型製造的。它的出現表明了由中亞地區傳入中國的馬在古代軍事上的重要作用。'  
+ ,description_cn:'古羅馬人飼養大型犬以作軍犬或護衛，尤其是黑色的大型犬，因為他們認為黑狗可以令入侵者感到害怕。黑狗形象在古羅馬文明中很常見，例如龐培古城的馬賽克陶瓷黑狗裝飾畫。'  
  ,description_en:''
 ,reference:'1. Adam Moklosi, Dog: A Natural History (Princeton: Princeton University Press, 2018), pp. 134.<br>&emsp;&emsp;&emsp;2. House of the Tragic Poet, Pompeii Sites Website, pompeiisites.org/en/archaeological-site/house-of-the-tragic-poet/.'  
  ,imag:''});
