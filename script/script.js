@@ -5,7 +5,7 @@ var iconInfo = {
     dog: { url: '/media/animal_icon/dog2.png', scaledSize: new google.maps.Size(25, 25) },
     rhino: { url: '/media/animal_icon/rhino.png',scaledSize: new google.maps.Size(25, 25) },
     leopard: { url: '/media/animal_icon/leopard.png', scaledSize: new google.maps.Size(25, 25) },
-    lion: { url: '/media/animal_icon/lion1.png',scaledSize: new google.maps.Size(25, 25) },
+    lion: { url: '/media/animal_icon/lion5.png',scaledSize: new google.maps.Size(25, 25) },
     elephant: { url: '/media/animal_icon/elephant1.png', scaledSize: new google.maps.Size(25, 25) },
     horse:{ url: '/media/animal_icon/horse.png', scaledSize: new google.maps.Size(25, 25) },
     rabbit:{ url: '/media/animal_icon/rabbit.png', scaledSize: new google.maps.Size(25, 25) },
