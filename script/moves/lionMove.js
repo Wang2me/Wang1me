@@ -1,49 +1,3 @@
-window.onload = function () {
-
-    initMap();
-    let infowindows = {};
-
-    for (let key in markers) {
-      if (markers.hasOwnProperty(key)) {
-        let marker = markers[key];
-    
-        marker.addListener('click', function() {
-          console.log('点击了标记 ' + key);
-    
-          // 检查信息窗口的状态并执行相应操作
-          if (infowindows[key] !== undefined && infowindows[key].getMap()) {
-            console.log('关闭已存在的标记' + key + '的信息窗口');
-            infowindows[key].close();
-          } else {
-            let content = '<div class="info-window" id="infoContainer">' +
-                '<h1>' + marker.content.title + '</h1>' +
-                '<p>' + marker.content.description + '</p>' +
-                '<p class="info-reference">参考：' + marker.content.reference + '</p>' +
-                '<img class="info-image" src="' + marker.content.image + '" alt="">' +
-                '</div>';
-    
-            let infowindow = new google.maps.InfoWindow({
-              content: content,
-            });
-    
-            infowindow.open(map, marker);
-            infowindows[key] = infowindow;
-          }
-        });
-      }
-    }
- 
-
-   
-
-
-
-
-
-        
-    }
-    
-    
       
     markers.lion1 = createMarker({ lat: 30.0030,lng:31.2045 }, 'lion', '埃及吉薩', { A: ['lion'], B: ['史前至夏商周'], C: ['宗教信仰'], D: ['其他'], E: ['非洲'] }
         , {
@@ -62,8 +16,10 @@ window.onload = function () {
             , description_cn: '海格力斯是古希臘神話中的半神半英雄，他曾經完成了十二件被稱為｢不可能完成｣的偉績，其中第一件就是殺死尼米亞的獅子。在伯羅奔尼撒，海格力斯殺死了獅子並獲得了它的皮毛。由是，｢海格力斯和尼米亞獅子｣成為了歐洲文化中讚美英雄的武力的典型形象。例如，在這件古希臘的雙耳陶罐上就出現了描繪了海格力斯與獅子搏鬥場景的繪畫。這件陶罐的年代大約為公元前540年，現存於美國紐約大都會博物館。'
             ,description_en:'Heracles was a divine hero in Greek mythology. The most popular stories of Heracles were about the Twelves Labours, and the first Labour was about slaying the Nemean Lion. In the Peloponnese, Hercules killed the lion and obtained its hide. Therefore, "Heracles and the Nemean Lion" became a typical image in European culture to praise the force of heroes.'
 			,reference: '1. Madeleine, "What were the 12 Labors of Hercules?", THEOI Greek Methology website, (13 September 2019), www.theoi.com/articles/what-were-the-12-labors-of-hercules/.<br>&emsp;&emsp;&emsp;2. Terracotta amphora (jar), The Metropolitan Museum of Art Website, www.metmuseum.org/art/collection/search/253608.'
-            , image: 'media/lion/213 Terracotta amphora (jar).jpg'
-            , referenceUrl: ''
+            , image: 'media/OneDrive_1_2024-1-8/243. (540BCE, Terracotta Amphora Jar, housed in The Metropolitan Museum of Art).jpg'
+            ,image_content_cn:'公元前540年，雙耳陶罐，大都會藝術博物館藏'
+            ,image_content_en:'540BCE, Terracotta Amphora Jar, housed in The Metropolitan Museum of Art'
+            ,referenceUrl: ''
         });
 
     markers.lion3 = createMarker({ lat: 25.3176, lng: 82.9739 }, 'lion', '印度瓦拉納西', { A: ['lion'], B: ['史前至夏商周'], C: ['宗教信仰'], D: ['其他'], E: ['南亞'] },
@@ -122,8 +78,10 @@ window.onload = function () {
             , description_cn: '隨著佛教在中國的傳播，獅子的形象也逐漸在古代中國流行起來。敦煌莫高窟第272窟，於十六國時期建造。其中南壁的壁畫描繪了佛陀講經說法的場景，畫中佛陀座位兩側有兩隻蹲伏的獅子。這是敦煌壁畫中最早的獅子形象。'
             ,description_en:'With the spread of Buddhism, the image of the lion gradually became popular in ancient China. The Cave 272 of the Mogao Caves at Dunhuang 敦煌莫高窟 was built during the Sixteen Kingdoms Period 十六國時期. One of the murals depicts the Buddha giving a sermon, with two crouching lions on either side of the Buddha\'s seat. This is the earliest image of a lion in a Dunhuang mural.'
 			,reference: '1. 莫高窟第272窟，敦煌研究院網站：www.dha.ac.cn/info/1425/3590.htm#<br>&emsp;&emsp;&emsp;2. 尚永琪，《蓮花上的獅子——圖說歐亞獅子文化》（香港：中華書局，2015），頁251-252。'
-            , image: ''
-            , referenceUrl: ''
+            , image: 'media/OneDrive_1_2024-1-8/249. (Northern Liang, Dharma Preaching Scene in Cave 272 of the Mogao Caves, housed in Dunhuang Academy).webp'
+            ,image_content_cn:'北涼，莫高窟272窟說法圖，敦煌研究院藏'
+            ,image_content_en:'Northern Liang, Dharma Preaching Scene in Cave 272 of the Mogao Caves, housed in Dunhuang Academy'
+            ,referenceUrl: ''
         });
 
     markers.lion9 = createMarker({ lat: 15.8801, lng: 108.338 }, 'lion', '越南會安', { A: ['lion'], B: ['三國兩晉南北朝'], C: ['軍事'], D: ['陸上絲綢之路'], E: ['東南亞'] },
@@ -162,8 +120,10 @@ window.onload = function () {
             , description_cn: '文殊菩薩騎乘青獅子，是中國佛教藝術中的典型形象。這一形象並非源自印度，而是唐代人的創造。例如，在榆林窟第25號窟的壁畫中，文殊菩薩的坐騎就是獅子。考古學家認為，二者的組合意義是以獅子的威猛象徵菩薩的智慧。'
             ,description_en:'Manjushri riding on a green lion is a typical image in Chinese Buddhist art. This image did not originate in India, but was created by Chinese people during the Tang Dynasty 唐朝. For example, the lion is the mount of Manjushri in the mural painting of Cave 25 of the Yulin Caves 榆林窟. Archaeologists believe that the combination of the two is meant to symbolize the Bodhisattva\'s wisdom with the lion\'s strength.'
 			,reference: '1. 尚永琪，《蓮花上的獅子——圖說歐亞獅子文化》（香港：中華書局，2015），頁209,213。<br>&emsp;&emsp;&emsp;2. 榆林窟第25窟，敦煌研究院網站，www.dha.ac.cn/info/1426/3635.htm#。'
-            , image: 'media/lion/223 榆林窟第25窟-主室西壁北侧-文殊图-中唐.png'
-            , referenceUrl: ''
+            , image: 'media/OneDrive_1_2024-1-8/253. (Tang Dynasty, Manjushri in Cave 25 of Yulin Caves, housed in Dunhuang Academy).png'
+            ,image_content_cn:'唐，榆林窟第25窟文殊菩薩圖，敦煌研究院藏'
+            ,image_content_en:'Tang Dynasty, Manjushri in Cave 25 of the Yulin Caves, housed in Dunhuang Academy'
+            ,referenceUrl: ''
         });
 
     markers.lion13 = createMarker({ lat: 41.7207, lng: 82.9430 }, 'lion', '新疆庫車', { A: ['lion'], B: ['唐'], C: ['朝貢'], D: ['陸上絲綢之路'], E: ['東亞'] },
@@ -242,8 +202,10 @@ window.onload = function () {
             , description_cn: '根據《東京夢華錄》記載，宋代元宵節的戲曲表演中，有｢舞獅豹｣一節。可見舞獅在宋代已經成為中國文化中流行的節慶活動。宋代宮廷畫家蘇漢臣所繪的《百子嬉春圖》，其內容為春節期間兒童進行娛樂活動的場景，其中的獅子是兩名孩童扮成的，有著綠色的鬃毛和藍色的皮膚，其形象已經很接近現在的舞獅。'
             ,description_en:'"According to the Dongjing Menghualu 東京夢華錄 (Dreams of Splendor of the Eastern Capital), there was a ""Lion Dance and Leopard Dance"" in the Xiqu 戲曲 (Chinese opera) performances of the Lantern Festival. This proves that the lion dance had already become a popular festive activity in Chinese culture during the Song Dynasty 宋朝.""One Hundred Children Playing in the Spring"", painted by the Song Dynasty court painter Su Hanchen 蘇漢臣, shows a scene of children entertaining during the Spring Festival. There are two children dressed as a lion, with green manes and blue skin, and the image is very close to that of the present-day lion dance."'
 			,reference: '1. 孟元老，《東京夢華錄·卷七》（上海：商務印書館據學津討源本影印，1936），頁138-139。<br>&emsp;&emsp;&emsp;2. 宋人百子嬉春頁，故宮博物院網站，www.dpm.org.cn/collection/paint/231547。'
-            , image: 'media/lion/231 苏汉臣百子嬉春.png'
-            , referenceUrl: ''
+            , image: 'media/OneDrive_1_2024-1-8/261. (Song Dynasty, One Hundred Children Playing in the Spring, housed in Palace Museum).png'
+            ,image_content_cn:'宋，百子嬉春圖，故宮博物院藏'
+            ,image_content_en:'Song Dynasty, One Hundred Children Playing in the Spring, housed in Palace Museum'
+            ,referenceUrl: ''
         });
 
     markers.lion21 = createMarker({ lat: 34.7970, lng: 114.3077 }, 'lion', '河南開封', { A: ['lion'], B: ['宋'], C: ['宗教信仰'], D: ['其他'], E: ['東亞'] },
@@ -341,8 +303,10 @@ window.onload = function () {
             , description_cn: '明朝畫家周全所繪的《獅子圖》，現藏於東京國立博物館。有學者推測這幅畫中的獅子可能是成化十九年（公元1483年）由撒馬爾罕進貢的。這幅畫中的獅子形象十分寫實，說明作為錦衣衛官員的周全有機會親見到獅子並對其進行寫生。'
             ,description_en:'"Chinese Lions", painted by the Ming Dynasty 明朝 artist Zhou Quan 周全, is now housed in the Tokyo National Museum. Some scholars have speculated that the lions in the painting may be tributes from the Samarkand in 1483. The lions in this painting are very realistic, suggesting that Zhou Quan, as an official of the Jinyiwei 錦衣衛 (Embroidered Uniform Guard), had the opportunity to see and sketch the lions himself.'
 			,reference: '1. 趙晶，〈撒馬爾罕的禮物：周全《獅子圖》研究——兼談中國古代獅子圖像中的誤解問題〉，《故宮博物院院刊》，總期223（2020年11月），頁99-100。'
-            , image: ''
-            , referenceUrl: ''
+            , image: 'media/OneDrive_1_2024-1-8/270. (Ming Dynasty, Chinese Lions, housed in Tokyo National Museum).jpg'
+            ,image_content_cn:'明，中国狮子，藏于东京国立博物馆'
+            ,image_content_en:'Ming Dynasty, Chinese Lions, housed in Tokyo National Museum'
+            ,referenceUrl: ''
         });//北京
 
     markers.lion31 = createMarker({ lat: 13.7563, lng: 100.5018 }, 'lion', '泰國曼谷', { A: ['lion'], B: ['明'], C: ['朝貢'], D: ['海上絲綢之路'], E: ['東南亞'] },

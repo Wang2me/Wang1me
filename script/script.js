@@ -88,8 +88,6 @@ function initMap() {
     
 
 
-    
-    
     // document.getElementById('map-container').addEventListener('wheel', function(e) {
     //     e.preventDefault(); // Prevent default scrolling behavior
     //     var currentZoom = map.getZoom();
@@ -1046,3 +1044,100 @@ function toggleMarkers(showList, hideList) {
         });
     } 
 }
+
+// function enlargeImage(img) {
+//     // Create a modal or overlay to display the enlarged image and a close button
+// var imageContainer = document.createElement('div');
+// imageContainer.className = 'image-container';
+//     // Create a div for the modal
+//     var modal = document.createElement('div');
+//     modal.className = 'modal';
+    
+//     // Create an image element for the enlarged image
+//     var modalImg = document.createElement('img');
+//     modalImg.src = img.src;
+//     modalImg.alt = 'Enlarged Image';
+//     modalImg.className = 'modal-content';
+  
+//     // Append the image to the modal
+//     modal.appendChild(modalImg);
+  
+//     // Create a close button
+//     var closeButton = document.createElement('span');
+//     closeButton.innerHTML = '&times;'; // The "x" symbol for the close button
+//     closeButton.className = 'close';
+    
+//     // Append the close button to the modal
+//     modal.appendChild(closeButton);
+  
+//     // Append the modal to the body of the document
+//     document.body.appendChild(modal);
+  
+//     // Add a click event listener to the close button to hide the modal when clicked
+//     closeButton.addEventListener('click', function() {
+//       modal.style.display = 'none';
+//     });
+  
+//     // Show the modal
+//     modal.style.display = 'block';
+  
+//     // Optional: Implement styling for the modal to position it in the center of the screen
+//   }
+  
+function enlargeImage(img) {
+    // Create a div for the container of the enlarged image
+    var imageContainer = document.createElement('div');
+    imageContainer.className = 'image-container';
+  
+    // Create a close button
+    var closeButton = document.createElement('span');
+    closeButton.innerHTML = '&times;'; // The "x" symbol for the close button
+    closeButton.className = 'close';
+    closeButton.addEventListener('click', function() {
+      document.body.removeChild(imageContainer);
+    });
+  
+    // Create an image element for the enlarged image
+    var modalImg = document.createElement('img');
+    modalImg.src = img.src;
+    modalImg.alt = 'Enlarged Image';
+    modalImg.className = 'modal-content';
+  
+    // Append the close button and the image to the image container
+    imageContainer.appendChild(closeButton);
+    imageContainer.appendChild(modalImg);
+
+
+    let isDragging = false;
+    let offset = { x: 0, y: 0 };
+    
+    // Mouse event listeners for dragging the image container
+    imageContainer.addEventListener('mousedown', function(event) {
+      isDragging = true;
+      offset.x = event.offsetX;
+      offset.y = event.offsetY;
+    });
+  
+    document.addEventListener('mousemove', function(event) {
+      if (isDragging) {
+        imageContainer.style.left = (event.clientX - offset.x) + 'px';
+        imageContainer.style.top = (event.clientY - offset.y) + 'px';
+      }
+    });
+  
+    document.addEventListener('mouseup', function() {
+      isDragging = false;
+    });
+
+    //Position the image container over the map using CSS
+    imageContainer.addEventListener('wheel', function(event) {
+        event.preventDefault(); // Prevent default scrolling behavior
+        if (event.deltaY < 0) {
+          modalImg.style.width = (modalImg.clientWidth * 1.1) + 'px';
+        } else {
+          modalImg.style.width = (modalImg.clientWidth * 0.9) + 'px';
+        }
+      });
+    // Append the image container to the body of the document
+    document.body.appendChild(imageContainer);
+  }

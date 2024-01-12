@@ -79,7 +79,10 @@ markers.elephant9 = createMarker({ lat:34.2981,lng:108.4836}, 'elephant','陝西
  ,description_cn:'霍去病是西漢名將。他曾經六次出擊匈奴，為漢武帝的軍事擴張做出了重大貢獻。由於他在軍事上的勝利，西漢控制了河西走廊，為陸上絲綢之路的開闢奠定了基礎。元狩六年(公元前117年)，霍去病因病去世，年僅二十四歲。霍去病墓位於如今的陝西省興平市，距離埋葬漢武帝的茂陵儘一千米。霍去病墓至今保留有許多大型動物石雕，其中有一隻石臥象。這隻臥象，是墓主人身份地位的象徵，現存於茂陵博物館。'  
  ,description_en:'Huo Qubing 霍去病 was a famous military general of the Western Han Dynasty 西漢. He defeated the Xiongnu 匈奴 six times and made a great contribution to the military expansion of Emperor Wu of the Han Dynasty 漢武帝. As a result of his military victories, the Western Han Dynasty gained control of the Hexi Corridor 河西走廊, laying the foundation for the opening of the Continental Silk Road. In 117 BCE, Huo Qubing died at the age of 24 due to an illness. Huo Qubing Tomb is located in the present-day Xingping 興平, Shaanxi, within one kilometer of the Maoling Mausoleum 茂陵 where Emperor Wu of Han was buried. The Huo Qubing Tomb still retains many large animal stone carvings, including a stone crouching elephant. This crouching elephant was the symbol of the social status of the owner of the tomb and is now collected in the Maoling Museum.'
   ,reference:'1. 王志傑，《茂陵與霍去病墓石雕》（西安：三秦出版社，2005），頁43-44。'  
- ,imag:''});
+ ,image:'media/OneDrive_1_2024-1-8/313. (Western Han Dynsaty, Stone Crouching Elephant, housed in Maoling Museum) .jpg'
+ ,image_content_cn:'西漢，霍去病墓石臥象，茂陵博物館藏'
+,image_content_en:'Western Han Dynasty, Stone Crouching Elephant in Huo Qubing Tomb, housed in Maoling Museum'
+   ,referenceUrl:''});
 				
 markers.elephant10 = createMarker({ lat:23.1208,lng:113.2366}, 'elephant','廣東廣州',{ A:['elephant'],B:['秦漢'],C:['朝貢'],D:['海上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
@@ -407,8 +410,10 @@ markers.elephant45 = createMarker({ lat:39.9256,lng:116.3979}, 'elephant','北�
   ,description_cn:'大象在明朝政治活動中扮演著重要的角色，它們需要參加皇帝的儀仗隊，並在大型慶典上用於展覽或表演。除此以外，明朝皇室還有一種名為象車的大型車駕。《出警圖》，現存於台北故宮博物院的明代畫作，其中就能看到在萬曆皇帝的出行隊伍中有這種由四頭大象拉動的巨大車駕。'  
   ,description_en:'Elephants played an important role in the political activities of the Ming Dynasty 明朝, as they were required to participate in the Emperor\'s guard of honor and were used for exhibitions or performances at large ceremonies. In addition, the Ming Dynasty royal family also had a large vehicle called the elephant carriage. "Departure Herald", a Ming Dynasty painting now in the National Palace Museum in Taipei, in which we can see this huge carriage pulled by four elephants in the Wanli Emperor\'s 萬曆皇帝 traveling procession.	'
   ,reference:'1. 沈德符，《萬曆野獲編·卷二十四》（北京：中華書局據清道光七年姚氏扶荔山房刻本勘校，1959），頁619-620。<br>&emsp;&emsp;&emsp;2. 古畫動漫-明人出警入蹕圖，國立故宮博物院網站，theme.npm.edu.tw/exh105/npm_anime/DepartureReturn/ch/index.html。'  
-  ,image:''
-  ,referenceUrl:''});	
+  ,image:'media/OneDrive_1_2024-1-8/349. (Ming Dynasty, Departure Herald, housed in National Palace Museum).jpg'
+  ,image_content_cn:'明朝，出警圖，國立故宮博物院藏'
+  ,image_content_en:'Ming Dynasty, Departure Herald, housed in National Palace Museum'
+   ,referenceUrl:''});	
    
 markers.elephant46 = createMarker({ lat:16.4774,lng:107.5682}, 'elephant','越南順華',{ A:['elephant'],B:['明'],C:['朝貢'],D:['陸上絲綢之路'],E:['東南亞'] },
  {title_cn: '描述',title_en: 'Description'  
@@ -488,16 +493,20 @@ markers.elephant54 = createMarker({lat:39.9200,lng:116.3814}, 'elephant','北京
   ,description_cn:'《乾隆皇帝洗象圖》是一幅清朝時的繪畫作品，現存於北京故宮博物院。這幅畫繪製於乾隆十五年（公元1750年），其內容是乾隆皇帝裝扮成普賢菩薩的樣子，觀看自己的僕人們清洗一頭白象。儘管這幅畫的署名是清朝畫家丁觀鵬，但研究者們認為這幅畫的繪製過程有西方傳教士的參與，是東西方畫家們合作的結果。乾隆皇帝信仰佛教，除了修建佛寺、翻譯佛經，還命令宮廷畫師繪製了許多佛教主題的繪畫，這幅畫應該就是其中一件作品。'  
   ,description_en:'Emperor Qianlong and Washing Elephant" is a painting dated to the Qing Dynasty 清朝, and is now housed in the Palace Museum in Beijing 北京. It was painted in 1750 and shows the Qianlong Emperor 乾隆皇帝 dressed as Samantabhadra watching his servants clean a white elephant. Although the painting was signed by the Chinese painter Ding Guanpeng 丁觀鵬, researchers suggest that it was painted with the participation of Western missionaries. It was the outcome of cooperation between Eastern and Western painters. The Qianlong Emperor believed in Buddhism. In addition to building Buddhist temples and translating Buddhist scriptures, he also ordered his court painters to produce many paintings on Buddhist themes, of which this painting must be one.'
   ,reference:'1. 丁觀鵬乾隆皇帝洗象圖軸，故宮博物院網站，www.dpm.org.cn/collection/paint/233336.html。'  
-  ,image:''
-  ,referenceUrl:''});  	
+  ,image:'media/OneDrive_1_2024-1-8/358. (Qing Dynasty, Qianlong Emperor Washing Elephant, housed in The Palace Museum).jpg'
+  ,image_content_cn:'清，乾隆皇帝洗象圖軸，故宮博物院藏'
+,image_content_en:'Qing Dynasty, Qianlong Emperor and Washing Elephant, housed in The Palace Museum'
+   ,referenceUrl:''});  	
   
 markers.elephant55 = createMarker({lat:21.9486,lng:96.0673}, 'elephant','緬甸曼德勒',{ A:['elephant'],B:['清'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'《萬國來朝圖》是一幅清朝時期的繪畫作品，現存於北京故宮博物院。這幅畫應該是有清朝宮廷畫師繪製，其內容是外國使節前來紫禁城朝拜並奉上貢品的場景。在畫中可以看到排在使者隊伍最前端的是一頭深灰色的大象，通過使者舉著的旗幟可以得知，這頭大象是來自緬甸的貢品。'  
   ,description_en:'Envoys from Vassal States and Foreign Countries Presenting Tributes to the Emperor" is a painting dated to the Qing Dynasty 清朝, and is now housed in the Palace Museum in Beijing. This painting, which was probably painted by court painters during the Qing Dynasty, shows foreign envoys making a pilgrimage to the Forbidden City and offering tribute to the Qing emperor. In the painting, you can see a dark gray elephant at the head of the procession of envoys. The flag held by the envoys indicated that the elephant was a tribute from Myanmar.'
   ,reference:'1. 萬國來朝圖軸，故宮博物院網站，www.dpm.org.cn/collection/paint/228789.html。'  
-  ,image:''
-  ,referenceUrl:''});  
+  ,image:'media/OneDrive_1_2024-1-8/359. (Qing Dynasty, Envoys from Vassal States and Foreign Countries Presenting Tributes to the Emperor (detail), housed in The Palace Museum).png'
+  ,image_content_cn:'清，萬國來朝圖，故宮博物院藏'
+  ,image_content_en:'Qing Dynasty, Envoys from Vassal States and Foreign Countries Presenting Tributes to the Emperor [detail], housed in The Palace Museum'
+   ,referenceUrl:''});  
  //北京	
   
 markers.elephant56 = createMarker({lat:16.4582,lng:107.5879}, 'elephant','越南順化',{ A:['elephant'],B:['清'],C:['朝貢'],D:['海上絲綢之路'],E:['東南亞'] },

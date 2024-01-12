@@ -40,8 +40,10 @@ markers.antelope1 = createMarker({ lat:45.6423,lng:25.5790}, 'antelope','羅馬�
     ,description_cn:'《職貢圖》是中國古代的一種紀實性繪畫，主要描繪外國使者的朝貢情況。台北故宮博物院收藏了一卷唐代畫家閻立本創作的《職貢圖》。研究者們認為這幅圖描繪了古代東南亞地區的使者們向唐朝進貢的情景。在這幅圖中可以看到其中一個使者牽著一隻作為貢品的羚羊。'  
     ,description_en:'The "Portraits of Periodical Offering" are documentary paintings in ancient China, which mainly represent the tributary by foreign envoys. The National Palace Museum in Taipei houses a roll of this painting created by the Tang Dynasty 唐朝 painter Yan Liben 閻立本. Researchers believe that this painting depicts the tribute journey from ancient Southeastern Asia to the Tang Dynasty. In this picture it can be seen that one of the envoys is holding a gazelle as a tribute.'
 	,reference:'1. 唐閻立本職貢圖卷，國立故宮博物院，digitalarchive.npm.gov.tw/Painting/Content?pid=25&Dept=P。'
-    ,image:''
-    ,referenceUrl:''});		
+    ,image:'media/OneDrive_1_2024-1-8/400. (Tang Dynasty, Tribute Bearers by Yan Liben, housed in National Palace Museum).jpeg'
+    ,image_content_cn:'唐，閻立本職貢圖卷，國立故宮博物院藏'
+    ,image_content_en:'Tang Dynasty, Tribute Bearers by Yan Liben, housed in National Palace Museum'
+   ,referenceUrl:''});		
    
 //越南順華，陝西西安	-lat:16.4532761,lng:107.5694
 
@@ -62,8 +64,10 @@ markers.antelope1 = createMarker({ lat:45.6423,lng:25.5790}, 'antelope','羅馬�
      ,description_cn:'東非劍羚，在明朝時被稱為｢馬哈獸｣。在明朝的歷史記錄中，東非劍羚是不剌哇（如今索馬里的巴拉韋）的特產之一，該國曾數次向明朝進貢這種動物。'  
      ,description_en:'In the historical records of the Ming Dynasty 明朝, the Eastern Africian oryx was one of the specialties of Barawa in Somali. The country sent oryxes as tribute to the Ming Dynasty several times.'
 	,reference:'1. 張廷玉等，《明史·列傳第二百十四》（北京：中華書局，1997），頁8449。'
-     ,image:''
-     ,referenceUrl:''});	
+     ,image:'media/OneDrive_1_2024-1-8/401. (Ming Dynasty, Oryx in Yiyu Tuzhi, housed in Cambridge University Library).png'
+     ,image_content_cn:'明，《異域圖志》馬哈獸圖，劍橋大學圖書館藏'
+    ,image_content_en:'Ming Dynasty, Oryx in Yiyu Tuzhi, housed in Cambridge University Library'
+   ,referenceUrl:''});	
 
 markers.antelope4 = createMarker({lat:27.1334,lng:57.0739}, 'antelope','伊朗米納卜',{ A:['antelope'], B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['西亞'] },
     {title_cn: '描述',title_en: 'Description'  

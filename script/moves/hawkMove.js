@@ -16,8 +16,10 @@ markers.hawk2 = createMarker({lat:34.5629,lng:109.6891}, 'hawk','陝西渭南市
  ,description_cn:'仰韶文化是黃河流域重要的新石器文化之一，其歷史可追溯至公元前5000年至公元前3000年。仰韶文化在考古學上以陶器著稱，例如1958年出土的鷹形陶鼎。該器皿以站立的鷹為原型，考古學家們推測可能與當時的祭祀活動有關。這一考古證據也體現了中國原始文明中對鳥類的崇拜。'  
  ,description_en:'The Yangshao Culture 仰韶文化 is one of the important Neolithic cultures from the Yellow River Basin, dating back from 5000 BCE to 3000 BCE. The Yangshao Culture is also known for its pottery, such as the Eagle-shaped Pottery Tripod discovered in 1959. The vessel was modeled on a standing eagle, which archaeologists have hypothesized may have been associated with ritual activities. This archaeological evidence also represents the worship of birds in Chinese primitive civilization.'
 ,reference:'1. 鷹形陶鼎，中國國家博物館www.chnmuseum.cn/zp/zpml/kgdjp/202008/t20200824_247248.shtml。	1. 鷹形陶鼎，中國國家博物館www.chnmuseum.cn/zp/zpml/kgdjp/202008/t20200824_247248.shtml。'  
- ,image:''
- ,referenceUrl:''
+ ,image:'media/OneDrive_1_2024-1-8/414. (4700 BCE to 2900 BCE, Bird-shaped Jade of Hongshan Culture, housed in Balinyouqi Museum).png'
+ ,image_content_cn:'公元前5000年-公元前3000年，仰韶文化鷹形陶鼎，中國國家博物館藏'
+,image_content_en:'(5000 BCE-3000 BCE, Eagle-shaped Porttery Tripod, housed in National Museum of China'
+   ,referenceUrl:''
 });
 						
 markers.hawk3 = createMarker({ lat:39.7011,lng:109.1706}, 'hawk','內蒙古杭錦旗阿魯柴登',{ A:['hawk'], B:['史前至夏商周'],C:['身份象徵'],D:['陸上絲綢之路'],E:['東亞']},
@@ -62,7 +64,10 @@ markers.hawk5 = createMarker({ lat:34.3246,lng:108.7072 }, 'hawk','陝西咸陽'
  ,description_cn:'劉安狩獵文化在唐朝十分流行，因此鷹、鶻等猛禽受到多位唐朝皇帝的喜愛，例如唐太宗和唐玄宗。章懷太子墓中壁畫《狩獵出行圖》描繪了唐朝皇族成員集體出獵的場景，其中就有騎士懷抱獵鷹的形象。是西漢皇族，被封為淮南王。在他所編著的《淮南子》中曾有圈養虎豹的記載。而《漢書》中也有經過馴服的虎豹可以聽從人類的指令的記載。這些記載說明，豹作為觀賞動物飼養在皇家園林中在漢代是非常流行的。'  
  ,description_en:'Hunting culture was very popular in the Tang Dynasty 唐朝, therefore hawks, falcons, and other raptors were favored by many Tang emperors, such as Emperor Taizong 太宗 and Emperor Xuanzong 玄宗. There is a mural in the Tomb of Prince Zhanghuai 章懷太子墓 that depicts royal family members of the Tang Dynasty on a group hunting trip, and there is an image of a knight embracing a falcon in this painting.'
 ,reference:'1. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T’ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 93.<br>&emsp;&emsp;&emsp;2. 陝西省博物館、乾縣文物局唐墓發掘組，〈章懷太子墓發掘簡報〉，《文物》，期11（1972年11月），頁15-16。'
- ,imag:''});	
+ ,image:'media/OneDrive_1_2024-1-8/417. (Tang Dynasty, The Mural of Hunting Trip in the Tomb of Prince Zhanghuai [detail], housed in Qianling Museum).jpeg'
+ ,image_content_cn:'唐，章懷太子墓壁畫狩獵出行圖[局部]，乾陵博物館藏'
+,image_content_en:'Tang Dynasty, The Mural of Hunting Trip in the Tomb of Prince Zhanghuai [detail], housed in Qianling Museum'
+   ,referenceUrl:''});	
  
 markers.hawk6 = createMarker({ lat:43.9702,lng:128.6424}, 'hawk','黑龍江寧安',{ A:['hawk'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
@@ -160,8 +165,10 @@ markers.hawk13 = createMarker({lat:42.9455,lng:89.1735}, 'hawk','新疆吐魯番
      ,description_cn:'《萬國來朝圖》是一幅清朝時期的繪畫作品，現存於北京故宮博物院。這幅畫應該是有清朝宮廷畫師繪製，其內容是外國使節前來紫禁城朝拜並奉上貢品的場景。在這幅圖中，我們可以看到有一位使者的手臂上站著一隻獵鷹。通過旗幟判斷，這名使者來自伊犁。'  
      ,description_en:'"Envoys from Vassal States and Foreign Countries Presenting Tributes to the Emperor" is a painting dated to the Qing Dynasty 清朝, and is now housed in the Palace Museum in Beijing. This painting, which was probably painted by court painters during the Qing Dynasty, shows foreign envoys making a pilgrimage to the Forbidden City and offering tribute to the Qing emperor. In this painting, we can see a falcon standing on the arm of an envoy. It can be determined by the flag that the envoy came from Ili (present-day Yili 伊犁, Xinjiang 新疆).'
     ,reference:'1. 萬國來朝圖軸，故宮博物院網站，www.dpm.org.cn/collection/paint/228789.html。'  
-     ,image:''
-     ,referenceUrl:''}); 
+     ,image:'media/OneDrive_1_2024-1-8/426. (Qing Dynasty, Envoys from Vassal States and Foreign Countries Presenting Tributes to the Emperor (detail), housed in The Palace Museum).png'
+     ,image_content_cn:'清，萬國來朝圖[局部]，故宮博物院藏'
+    ,image_content_en:'Qing Dynasty, Envoys from Vassal States and Foreign Countries Presenting Tributes to the Emperor [detail], housed in The Palace Museum'
+   ,referenceUrl:''}); 
     
      
     markers.hawk15 = createMarker({lat:44.6275,lng:128.4586 }, 'hawk','黑龍江海林',{ A:['hawk'],B:['清'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },

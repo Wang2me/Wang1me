@@ -25,8 +25,10 @@ markers.cat3 = createMarker({ lat:30.0435,lng:31.2360}, 'cat','埃及開羅',{ A
  ,description_cn:'在開羅南部的金字塔群中，考古學家發現了一塊刻有象形文字的浮雕，其含義為｢貓之城之主｣。在浮雕上刻有三隻蹲坐的貓和一位站立的男性天神。這塊浮雕證明，至少在四千年之前，古埃及人已經大量飼養家貓。'  
  ,description_en:'In the pyramid complex in southern Cairo, archaeologists have discovered a relief with a hieroglyphic label that means "Lord of Cats\' City". There are three crouching cats and a standing figure of a male deity on the relief. This piece proves that ancient Egyptians kept domestic cats in large numbers at least 4000 years ago.'
 ,reference:'1. Relief with hieroglyphic label "Lord of Cats Town", The Metropolitan Museum of Art Website, www.metmuseum.org/art/collection/search/551093.'
- ,image:''
- ,referenceUrl:''});
+ ,image:'media/OneDrive_1_2024-1-8/142. (2353BCE-2150BCE, Relief with Hieroglyphic Label Lord of Cats\' Town, housed in Metropolitan Museum of Art).jpg'
+ ,image_content_cn:'公元前2353年-公元前2150年，｢貓之城之主｣浮雕，大都會藝術博物館藏'
+,image_content_en:'2353BCE-2150BCE, Relief with Hieroglyphic Label "Lord of Cats\' Town", housed in Metropolitan Museum of Art'
+   ,referenceUrl:''});
 	
 markers.cat4 = createMarker({ lat: 30.5764,lng:31.5039 }, 'cat','埃及宰加濟格',{ A:['cat'], B:['史前至夏商周'],C:['宗教信仰'],D:['其他'],E:['非洲'] },
 {title_cn: '描述',title_en: 'Description'  
@@ -40,9 +42,11 @@ markers.cat5 = createMarker({lat:25.6859,lng:32.6385 }, 'cat','埃及盧克索',
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'貓因為可以捕鼠而受到古埃及人的喜愛和崇敬。古埃及在很長一段時間內禁止出口貓，隨意傷害貓也會受到懲罰。古埃及貴族對貓更是寵愛有加，並大量飼養寵物貓。在古埃及貴族墓葬中，貓是十分常見的壁畫題材。例如，在古埃及皇室成員伊普伊的墓葬壁畫中有兩隻貓，其中一隻小貓在伊普伊的大腿上玩耍，而另一隻貓端坐在伊普伊妻子的座椅下方。'  
  ,description_en:'Cats were loved and honored by the ancient Egyptians for catching rats. It was forbidden to export cats for a long time in Ancient Egypt, and any harm to cats would be punished. Ancient Egyptian nobles kept a lot of pet cats. In their tombs, cats were frequently the motif of murals. For example, in the tomb frescoes of Ipuy, a member of the Egyptian royal family, there are two cats, one of which is a kitten playing on Ipuy\'s lap, while the other is sitting under the seat of Ipuy\'s wife.'
-,reference:'1. Sarah Brown, The Cat: A Natural and Cultural History (New Jersey: Princeton University Press, 2020), pp. 27-28.<br>&emsp;&emsp;&emsp;2. Ipuy and Wife Receive Offerings from Their Children (substantially restored), The Metropolitan Museum of Art Website, www.metmuseum.org/art/collection/search/548567.'
- ,image:''
- ,referenceUrl:''});
+ ,reference:'1. Sarah Brown, The Cat: A Natural and Cultural History (New Jersey: Princeton University Press, 2020), pp. 27-28.<br>&emsp;&emsp;&emsp;2. Ipuy and Wife Receive Offerings from Their Children (substantially restored), The Metropolitan Museum of Art Website, www.metmuseum.org/art/collection/search/548567.'
+ ,image:'media/OneDrive_1_2024-1-8/144. (1279BCE-12123BCE, Ipuy and Wife Receive Offerings from Their Children, housed in Metropolitan Meseum of Art) .jpg'
+ ,image_content_cn:'公元前1279年-公元前1213年，伊普伊墓葬壁畫，大都會藝術博物館藏'
+ ,image_content_en:'1279BCE-12123BCE, Ipuy and Wife Receive Offerings from Their Children, housed in Metropolitan Meseum of Art'
+   ,referenceUrl:''});
 
 markers.cat6 = createMarker({lat:34.5371,lng:109.8582 }, 'cat','陝西渭南華州區柳枝鎮',{ A:['cat'], B:['史前至夏商周'],C:['農業生產'],D:['其他'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
@@ -187,8 +191,10 @@ markers.cat21 = createMarker({ lat:36.2910,lng:59.5874}, 'cat','伊朗馬什哈�
  ,description_cn:'在南宋的都城臨安（今浙江杭州），寵物產業更加繁榮，寵物商品也更加豐富。除了各式各樣的貓糧、狗糧、貓窩、狗窩外，部分商戶還提供為貓狗理髮的服務。臨安的高官和富商尤其喜愛一種名為｢獅貓｣的外來品種。｢獅貓｣的毛髮長且濃密，有白、黃兩種顏色，不能捕鼠。推測可能是通過海上貿易傳入中國的波斯貓早期品種。'  
  ,description_en:'"In Lin\'an 臨安 (present-day Hangzhou 杭州, Zhejiang 浙江), the capital of the Southern Song Dynasty 南宋, the pet industry was more prosperous and the goods for pets were more varied. In addition to the multiple food and houses for pets, some merchants also offered haircutting services for dogs and cats. The officials and merchants in Lin\'an were particularly fond of an exotic species called the ""lion cat"". ""Lion cats"" have long and dense fur, white or yellow in color, and cannot hunt mice. It is presumed to be an early species of Persian cat that was introduced to China through the maritime trade."'
 ,reference:'1. 吳自牧，《夢梁録·卷十三》（上海：商務印書館，1939），頁107。<br>&emsp;&emsp;&emsp;2. 吳自牧，《夢梁録·卷十八》（上海：商務印書館，1939），頁169。<br>&emsp;&emsp;&emsp;3. 周密，《武林舊事·卷六》（杭州：浙江人民出版社據知不足齋叢書本點校，1984），頁102,104。'  
- ,image:''
- ,referenceUrl:''});
+ ,image:'media/OneDrive_1_2024-1-8/160. (Nothern Song Dynasty, Album of Cats and Butterflies, housed in National Palace Museum).tif'
+ ,image_content_cn:'北宋，宋徽宗真跡耄耋圖，國立故宮博物院藏'
+ ,image_content_en:'Nothern Song Dynasty, Album of Cats and Butterflies, housed in National Palace Museum'
+   ,referenceUrl:''});
 //伊朗米納卜，浙江杭州	-lat:27.1352797,lng:57.0636-lat:30.2625874,lng:120.1294
      
 markers.cat22= createMarker({lat:30.2625,lng:120.1294 }, 'cat','浙江杭州',{ A:['cat'],B:['宋'],C:['文化娛樂'],D:['其他'],E:['東亞'] },
@@ -243,16 +249,20 @@ markers.cat27 = createMarker({ lat:31.2978,lng:120.5793}, 'cat','江蘇蘇州',{
  ,description_cn:'元代人購買或領養貓需要繪製一張｢納貓契｣，意為人和貓之前簽訂契約。契約上有貓的名字和畫像，並希望貓在神明的見證下不會離家出走。這種習可能俗始於南宋時期，發展到元代時已經十分流行。'  
  ,description_en:'In the Yuan Dynasty 元朝, people were required to prepare a "Na Mao Qi 納貓契" (Cat Contract) when buying or adopting a cat, which means that a contract was made between humans and cats. The contract included the name and portrait of the cat and the prayer that the cat would not run away from home under the witness of the gods. This custom may started from the Southern Song Dynasty 南宋 and became very popular during the Yuan Dynasty.'
 ,reference:'1. 《居家必備·卷三》（哈佛燕京圖書館藏明刊本）。'  
- ,image:''
- ,referenceUrl:''});				
+ ,image:'media/OneDrive_1_2024-1-8/168. (Yuan Dynasty, Na Mao Jing of the Version Published in the Ming Dynasty, housed in Harvard-Yenching Library).jpg'
+ ,image_content_cn:'元，納貓經，哈佛燕京圖書館藏明刊本'
+,image_content_en:'Yuan Dynasty, Na Mao Jing, housed in Harvard-Yenching Library'
+   ,referenceUrl:''});				
 
-markers.cat28 = createMarker({ lat:28.6774,lat:115.8259}, 'cat','江西南昌',{ A:['cat'],B:['元'],C:['文化娛樂'],D:['其他'],E:['東亞'] },
+markers.cat28 = createMarker({ lat:28.6766,lng:115.8384}, 'cat','江西南昌',{ A:['cat'],B:['元'],C:['文化娛樂'],D:['其他'],E:['東亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'通書在元代時已經十分流行，購買或領養貓需要查詢通書上的良辰吉日。通書還記載有相貓的方法：元人認為體型和尾巴長的貓善於捉鼠，並認為純色的貓比有花紋的貓更好。此外，通書上還有一些養貓的技巧。比如將沾有貓排洩物的筷子插在土堆上，貓就會在土堆上如廁，這個方法類似現代的貓砂。以及，為了讓貓和狗能夠和睦相處，貓到家的第一天，主人應該帶領貓和狗一起祭祀灶神。'  
  ,description_en:'The almanac was already very popular in the Yuan Dynasty 元朝, and it was necessary to check the auspicious days in the almanac before buying or adopting a cat. The almanac also recorded the method of selecting cats: Yuan people believed that cats with long bodies and tails were good at catching mice, and thought that solid-colored cats were better than cats with patterns. Not only that, there were also a few tips on how to raise cats in the almanac. For example, the cat would use the mound as a toilet if you insert the chopsticks with cat excrement on the mound, similar to the modern cat litter. Also, in order for cats and dogs to live in harmony, the owner should lead the cat and dog to sacrifice to the Kitchen God on the first day the cat arrives home.'
 ,reference:'1. 宋魯珍、何士泰，《三訂曆法玉堂通書捷覽·卷四》（哈佛燕京圖書館藏書坊余應灝三台館刊本）。'  
- ,image:''
- ,referenceUrl:''});			
+ ,image:'media/OneDrive_1_2024-1-8/169. (Yuan Dynasty, San ding li fa yu tang tong shu jie lan of the Version Published in the Ming Dynasty [detail], housed in Harvard-Yenching Library).jpg'
+ ,image_content_cn:'元，三定曆法玉堂通書捷覽[局部]，哈佛燕京圖書館藏明刊本'
+,image_content_en:'Yuan Dynasty, San ding li fa yu tang tong shu jie lan [detail], housed in Harvard-Yenching Library'
+   ,referenceUrl:''});			
 }
 //明
 {
@@ -280,9 +290,11 @@ markers.cat31 = createMarker({ lat:36.2910,lng:59.5874}, 'cat','伊朗馬什哈�
  ,description_cn:'明代皇宮中設有貓房，專門負責養貓，每年餵貓肉可達七百二十斤。受到皇帝喜愛的貓還會被賜予官職，這些被尊稱為｢老爺｣或｢丫頭｣的貓也就是我們現在所看到的｢故宮貓｣的祖先。明代皇帝很多都是出名的愛貓人士。宣德帝曾親筆繪製了多幅貓畫，其中幾件現存於台北故宮博物院，例如創作於1426年的《花下貍奴圖》。嘉靖皇帝最喜愛一隻名為｢雙眉｣的獅貓，據說雙眉非常善解人意，經常陪伴在嘉靖身邊且從不吵鬧。它死後嘉靖皇帝十分悲痛，命令百官為它寫作悼文。袁煒的悼文中有｢化獅作龍｣的說法，令嘉靖非常滿意，雙眉的墓因此被稱為｢虬龍冢｣。受此風氣影響，明朝的宦官也十分流行養貓，尤其是體型高大的波斯貓。'  
  ,description_en:'"During the Ming Dynasty 明朝, there was a cat house in the imperial palace, which was responsible for raising cats and feeding them up to 720 jins 斤 of meat each year. The cats favored by the emperor were also given official positions, and these cats were the ancestors of the ""Forbidden City cats"" we can see today.A lot of Ming emperors were famous cat lovers. Xuande Emperor 宣德皇帝 painted many cat paintings, several of which are now in the National Palace Museum in Taipei, such as the painting ""Cats Below Flowers"", created in 1426. The favorite cat of the Jiajing Emperor 嘉靖皇帝 was a lion cat, which often accompanied him quietly. Jiajing Emperor was very sorrowful when the cat died and asked his officials to write eulogies for the cat. Yuan Wei 袁煒 was appreciated by Jiajing because his eulogy included the phrase ""the lion cat became a dragon after its death"". Therefore, the tomb of the lion cat was named the ""Dragon Tomb"".Influenced by this trend, it was also popular for Ming eunuchs to keep cats, especially the large Persian cats."'
 ,reference:'1. 沈德符，《萬曆野獲編·補遺一》（北京：中華書局據清道光七年姚氏扶荔山房刻本勘校，1959），頁812。<br>&emsp;&emsp;&emsp;2. 沈榜，《宛署雜記·第十三卷》（北京：北京出版社據明萬曆二十一年刻本點校，1961），頁104。<br>&emsp;&emsp;&emsp;3. 沈榜，《宛署雜記·第二十卷》（北京：北京出版社據明萬曆二十一年刻本點校，1961），頁259。<br>&emsp;&emsp;&emsp;4. 明宣宗畫花下貍奴圖，國立故宮博物院網站，網址：digitalarchive.npm.gov.tw/Painting/Content?pid=3220&Dept=P。'  
- ,image:''
- ,referenceUrl:''});
- 
+ ,image:'media/OneDrive_1_2024-1-8/170. (Ming Dynasty, Cats Below Flowers, housed in National Palace Museum).jpg'
+ ,image_content_cn:'明，明宣宗畫花下狸奴圖，國立故宮博物院藏'
+ ,image_content_en:'Ming Dynasty, Cats Below Flowers, housed in National Palace Museum'
+   ,referenceUrl:''});
+   
 markers.cat32 = createMarker({ lat:12.7862,lng:45.0164}, 'cat','也門亞丁',{ A:['cat'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['西亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'亞丁在明代被稱為阿丹。據史書記載，阿丹國王十分崇敬中國，用大量珍寶與鄭和進行貿易。鄭和船隊從阿丹帶回了長頸鹿、獅子、豹、花貓、鴕鳥等動物。其中花貓可能是非洲當地的藪貓。'  

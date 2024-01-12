@@ -119,16 +119,55 @@ function switchLanguageTo(language) {
         if (markers[markerName] && markers[markerName].content) {
             markers[markerName].content.description = markers[markerName].content['description_' + language];
             markers[markerName].content.title = markers[markerName].content['title_' + language];
-             //markers[markerName].title = '';
-
+            markers[markerName].content.image_content = markers[markerName].content['image_content_' + language]; // 添加切换参考文献的语言
+            
             // 可以在这里处理其他需要变更的属性...
         }
     }
     console.log('Switching language to: ' + language); // 输出将要切换到的语言
+    let infowindows = {};
+
+    for (let key in markers) {
+      if (markers.hasOwnProperty(key)) {
+        let marker = markers[key];
+    
+        marker.addListener('click', function() {
+          console.log('点击了标记 ' + key);
+    
+          // 检查信息窗口的状态并执行相应操作
+          if (infowindows[key] !== undefined && infowindows[key].getMap()) {
+            console.log('关闭已存在的标记' + key + '的信息窗口');
+            infowindows[key].close();
+          } else {
+            let content = '<div class="info-window" id="infoContainer">' +
+                '<h1>' + marker.content.title + '</h1>' +
+                '<p>' + marker.content.description + '</p>' +
+                '<p class="info-reference">' + (language === 'cn' ? '参考：' : 'Reference: ') + marker.content.reference + '</p>' +
+                //'<img class="info-image" src="' + marker.content.image + '" alt="">' +
+                '<img class="info-image" src="' + marker.content.image + '" alt="" onclick="enlargeImage(this)">' + 
+    (marker.content.image_content ? '<p class="info-reference">' + marker.content.image_content + '</p>' : '') + // Add conditional check
+                '</div>';
+    
+            let infowindow = new google.maps.InfoWindow({
+              content: content,
+            });
+            
+            
+            infowindow.open(map, marker);
+            infowindows[key] = infowindow;
+          }
+        });
+      }
+    }
+    
+    
 
 }
+window.onload = function () {
 
-
+    initMap();
+       
+    }
 
 	
 	

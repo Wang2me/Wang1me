@@ -7,8 +7,10 @@
     description_cn: '狗項圈大概出現在狗馴化之後不久。考古學家在公元前3300年的烏魯克遺址中發現了一個金質的掛墜，其形象是一隻戴有項圈的小狗。這一發現被視為蘇美爾人發明並使用狗項圈的證據。'
     ,description_en:'Dog collars probably appeared shortly after dogs were domesticated. A golden pendant of a dog with a collar was found at a site of Uruk dated to 3300 BCE. This discovery was regarded as evidence that the Sumerians invented and used dog collars.'
 ,reference:'1. Joshua J. Mark, Dogs in the  Ancient World, World History Encyclopedia Website (January 2019), www.worldhistory.org/article/184/dogs-in-the-ancient-world/.<br>&emsp;&emsp;&emsp;2. Dog pendant, The Metropolitan Museum of Art Website, www.metmuseum.org/art/collection/search/327508.'
-    ,imag:''
-    ,referenceUrl:''
+    ,imag:'media/OneDrive_1_2024-1-8/178. (3300BCE-2900BCE, Dog Pendant, housed in Metropolitan Museum of Art) .jpg'
+    ,image_content_cn:'公元前3300年-公元前2900年，狗吊墜，大都會藝術博物館藏'
+,image_content_en:'3300BCE-2900BCE, Dog Pendant, housed in Metropolitan Museum of Art'
+   ,referenceUrl:''
  });
 
 
@@ -50,9 +52,9 @@ markers.dog5 = createMarker({lat:36.0957,lng:114.3529}, 'dog','河南安陽',{ A
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'周代禮儀制度對不同等級的貴族的日常生活有著嚴格的規定。比如貴族飼養的狗死亡後不能隨意丟棄，應當用車蓋包裹後掩埋。據說孔子的狗死亡後，孔子因為太貧窮而沒有馬車，最終只能用一卷草席安葬了他的狗。'  
  ,description_en:'The ritual system of the Zhou Dynasty 周朝 had strict rules for the daily life of different classes of nobles. For example, a dog kept by a noble could not be discarded at will after death but should be wrapped in a carriage cover and buried. It is said that after the death of Confucius\' dog, Confucius had to bury his dog with a roll of straw mat because he was too poor to have a carriage.'
-,reference:'1. 《禮記正義·卷十》，《十三經注疏·上冊》（北京：中華書局據清阮元校刻本影印，1979），頁1315。'
+ ,reference:'1. 《禮記正義·卷十》，《十三經注疏·上冊》（北京：中華書局據清阮元校刻本影印，1979），頁1315。'
  ,image:''
- ,referenceUrl:''});
+   ,referenceUrl:''});
 
  markers.dog7 = createMarker({lat:40.7442,lng:107.38200 }, 'dog','內蒙古巴彥淖爾',{ A:['dog'], B:['史前至夏商周'],C:['飲食'],D:['其他'],E:['東亞'] },
  {title_cn: '描述',title_en: 'Description'  
@@ -425,7 +427,9 @@ markers.dog48 = createMarker({lat:51.2139,lng:3.2097 }, 'dog','比利時布魯�
  ,description_cn:'小型犬是歐洲畫家們喜愛的題材之一，我們可以在大量的繪畫中看到作為寵物的小型犬和人類的緊密關係。例如，在荷蘭畫家揚·范·艾克的油畫《阿諾菲尼的婚禮》中就出現了一隻布魯塞爾格林芬犬。這隻小狗可能象徵著布魯日商人阿諾菲尼和妻子對婚姻的忠誠。'  
  ,description_en:'Small dogs are one of the favorite subjects of European painters, and we can see the close relationship between small dogs as pets and humans in a large number of paintings. For example, a Bruxelles Grimfern dog is shown in the oil painting "The Arnolfini Portrait" by Dutch painter Jan van Eyck. This puppy may symbolize the loyalty of the Bruges merchant Arnolfini and his wife to their marriage.'
 ,reference:'1. Van Eyck\'s Arnolfini Portrait, The National Gallery Website, www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait.'  
- ,image:''
+ ,image:'media/OneDrive_1_2024-1-8/183. (1434, Van Eyck\'s Arnolfini Portrait, housed in National Gallery, London).jpg'
+ ,image_content_cn:'公元1434年，阿諾菲尼的婚禮，倫敦國家美術館藏'
+ ,image_content_en:'1434, Van Eyck\'s Arnolfini Portrait, housed in National Gallery, London'
  ,referenceUrl:''});     				
 }
 
@@ -436,16 +440,20 @@ markers.dog49 = createMarker({lat:39.9300,lng:116.4015}, 'dog','北京',{ A:['do
  ,description_cn:'雍正皇帝是清朝皇帝中最知名的愛狗人士。他有兩隻寵物犬，分別名為｢百福｣和｢造化｣，清宮檔案中記錄有十餘條為兩隻犬製作服裝的命令。慈禧太后則喜愛飼養哈巴狗，據說她經常和外國公使夫人們交流養狗經驗。'  
  ,description_en:'The Yongzheng Emperor 雍正 was the most well-known dog lover among the Qing Dynasty 清朝 emperors. He had two pet dogs, and there were more than a dozen orders in the Qing Palace records to make clothes for the two dogs. Empress Dowager Cixi 慈禧太后 loved to keep pugs, and it is said that she often exchanged dog-keeping experiences with the wives of foreign ambassadors.'
 ,reference:'1. 曾誠，〈兩岸故宮《十駿犬圖》與康雍乾三帝寵物情結〉，《紫禁城》，期2（2018年2月），頁65-67。<br>&emsp;&emsp;&emsp;2. 徐珂，《清稗類鈔·第十二冊》（北京：中華書局，2010），頁5531。<br>&emsp;&emsp;&emsp;3. 徐珂，《清稗類鈔·第十二冊》（北京：中華書局，2010），頁5535-5536。'  
- ,image:''
- ,referenceUrl:''});
+ ,image:'media/OneDrive_1_2024-1-8/226. (Qing Dynasty, Green Silk Dog Clothing with Begonia and Chrysanthemum Patterns, housed in Palace Museum).jpg'
+ ,image_content_cn:'清，綠地緞海棠菊狗衣，故宮博物院藏'
+,image_content_en:'Qing Dynasty, Green Silk Dog Clothing with Begonia and Chrysanthemum Patterns, housed in Palace Museum'
+   ,referenceUrl:''});
 		
  markers.dog50 = createMarker({lat:40.9502,lng:117.9534}, 'dog','河北承德',{ A:['dog'],B:['清'],C:['文化娛樂'],D:['陸上絲綢之路','海上絲綢之路'],E:['東亞'] },
  {title_cn: '描述',title_en: 'Description'  
   ,description_cn:'清朝皇帝喜愛狩獵，其參與的狩獵活動一般在秋季舉行，被稱為｢木蘭秋狝｣。因此，獵犬也是清朝皇室大量飼養的動物。著名的傳教士郎世寧和艾啟蒙分別創作過《十駿犬圖》，其內容是乾隆皇帝的十隻獵犬。這兩版《十駿犬圖》分別由台北故宮博物院和北京故宮博物院收藏。根據其中的文字信息，乾隆的獵犬大多是來自西藏、蒙古和歐洲的貢品。'  
   ,description_en:'The emperors of the Qing Dynasty 清朝 loved hunting, and the Imperial hunts of the Qing Dynasty were usually held in autumn. Therefore, the hound was also a large number of animals kept in the Qing palace. The famous missionaries Giuseppe Castiglione and Ignatius Sichelbart have each created paintings of the ten hunting dogs of the Qianlong Emperor 乾隆, namely the "Ten Prized Dogs". These two editions of the "Ten Prized Dogs" are in the collections of the National Palace Museum in Taipei and the Palace Museum in Beijing 北京. According to the text, most of Qianlong\'s dogs were tributes from Xizang 西藏, Mongolia, and Europe.'
 ,reference:'1. 曾誠，〈兩岸故宮《十駿犬圖》與康雍乾三帝寵物情結〉，《紫禁城》，期2（2018年3月），頁51-62。<br>&emsp;&emsp;&emsp;2. 清郎世寧畫十駿犬，國立故宮博物院網站，digitalarchive.npm.gov.tw/Painting/Content?pid=13599&Dept=P。<br>&emsp;&emsp;&emsp;3. 艾啟蒙十駿犬圖冊，故宮博物院網站，www.dpm.org.cn/collection/paint/232591.html。'  
-  ,image:''
-  ,referenceUrl:''});
+  ,image:'media/OneDrive_1_2024-1-8/227. (Qing Dynasty, Ten Prized Dogs Ts\'ang-ni, housed in National Palace Museum).jpg'
+  ,image_content_en:'Qing Dynasty, Ten Prized Dogs Ts\'ang-ni, housed in National Palace Museum'
+  ,image_content_cn:'清，郎世寧畫十駿犬蒼猊犬，國立故宮博物院藏'
+   ,referenceUrl:''});
 		
   markers.dog51 = createMarker({lat:51.5086,lng:-0.1656}, 'dog','英國倫敦',{ A:['dog'],B:['清'],C:['文化娛樂'],D:['海上絲綢之路'],E:['歐洲'] },
   {title_cn: '描述',title_en: 'Description'  

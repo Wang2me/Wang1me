@@ -42,8 +42,10 @@ markers.horse5 = createMarker({lat:28.2193,lng:112.9230 }, 'horse','湖南長沙
  ,description_cn:'在長沙馬王堆漢墓三號墓中，考古學家們發現了已經失傳的《相馬經》的抄本。經過初步研究，考古學家們認為《相馬經》可能是由戰國時期楚國人寫作的。該文物的出土說明了早在東周時期中國人已經具有相當豐富的飼養和挑選馬匹的經驗。最新的研究認為，《相馬經》的創作年代很可能是在楚襄王統治時期。'  
  ,description_en:'In the site of the Mawangdui Tomb 3 馬王堆三號墓 in Changsha 長沙, Hunan 湖南,  archaeologists discovered a copy of the lost "Xiangma Jing 相馬經" (Standard of Judging Horses). After preliminary research, archaeologists believe that the "Xiangma Jing" may have been written by people from the Chu State 楚國 during the Warring States Period 戰國時期. The excavation of this cultural relic shows that the ancient Chinese already had considerable experience in raising and selecting horses as early as the Eastern Zhou Dynasty 東周. The latest research believes that the "Xiangma Jing" was probably created during the reign of King Xiang of Chu State 楚襄王.'
 ,reference:'1. 馬王堆漢墓帛書整理小組，〈馬王堆漢墓帛書《相馬經》譯文〉，《文物》，期8（1977年8月），頁17。<br>&emsp;&emsp;&emsp;2. 孫海龍、劉剛，〈從帛書《相馬經》看戰國晚期散體賦的成熟與定型〉，《學術交流》，總期334（2022年1月），頁169-170。'
- ,image:''
- ,referenceUrl:''});
+ ,image:'media/OneDrive_1_2024-1-8/73. (Western Han Dynasty, Xiangma Jing Silk Manuscripts in Mawangdui Tomb 3, housed in Hunan Meseum).jpg'
+ ,image_content_cn:'西漢，鎏金銅馬，茂陵博物館藏'
+,image_content_en:'Western Han Dynasty, Xiangma Jing Silk Manuscripts in Mawangdui Tomb 3, housed in Hunan Meseum'
+   ,referenceUrl:''});
 }
 
  //秦漢
@@ -307,8 +309,10 @@ markers.horse35 = createMarker({lat:34.2555,lng:108.9208 }, 'horse','陝西西�
   ,description_cn:'唐代是馬球運動在中國歷史中最流行的一段時期。唐朝的許多皇帝都是馬球的愛好者，在唐代長安城（今陝西西安）的皇宮中就有馬球場。除了貴族和軍人，唐朝的普通人甚至是婦女都有機會參與馬球運動。位於西安的大唐西市博物館收藏有一枚唐代的打馬球紋銅鏡，其主要圖案就是四名騎士進行馬球運動的場景。據歷史記載，元和八年（公元813年），當時擔任福州刺史的裴次元在當地修建馬球場。1958年，考古學家們在福州市發現了一塊唐代石碑，碑文的內容記載了裴次元在福州推動城市建設修建馬球場的情況。這塊名為《球場山亭記》的石碑正是唐代馬球文化繁榮的表現和證明。'  
   ,description_en:'"It was the most popular period of polo in Chinese history during the Tang Dynasty 唐朝. Many of the Tang emperors were polo advocates, and there was a polo ground in the palace of Chang\'an City 長安城 (present-day Xi\'an 西安, Shaanxi 陝西). In addition to the nobility and the military, the common people of the Tang Dynasty, even women, had the opportunity to participate in this sport. In the collection of the Tang West Market Museum in Xi\'an, there is a Bronze Mirror with Polo Pattern from the Tang Dynasty, the main motif of which is a scene of four horsemen playing polo.In 1958, archaeologists found a stele in Fuzhou 福州 from the Tang Dynasty. The content of the stele recorded that Pei Ciyuan 裴次元 promoted urban development and the building of a polo ground in Fuzhou. This stele is the representation and evidence of the prosperity of polo culture in the Tang Dynasty."'
 ,reference:'1. 路志峻、林春、李金梅，〈漢唐間絲綢之路上的馬毬運動考辨〉，《敦煌研究》，總期103（2007年5月），頁51-52。<br>&emsp;&emsp;&emsp;2. 打馬球紋銅鏡，大唐西市博物館網站，網址：www.dtxsmuseum.com/news_show.aspx?id=628。<br>&emsp;&emsp;&emsp;3. 林丹，〈唐代福州球場山亭記碑與馬球文化〉，《藝苑）》，期4（2013年7月），頁106-107。'  
-  ,image:''
-  ,referenceUrl:''});
+  ,image:'media/OneDrive_1_2024-1-8/103. (Tang Dynasty, Bronze Mirror with Polo Pattern, housed in Tang West Market Museum).jpg'
+  ,image_content_cn:'唐，打馬球紋銅鏡，大唐西市博物館藏'
+,image_content_en:'Tang Dynasty, Bronze Mirror with Polo Pattern, housed in Tang West Market Museum'
+   ,referenceUrl:''});
 //福建福州	-lat:26.0665328,lng:119.2855
 
 markers.horse36 = createMarker({ lat:47.4232,lng:102.6946 }, 'horse','蒙古鄂爾渾河谷',{ A:['horse'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },
@@ -620,8 +624,10 @@ markers.horse67 = createMarker({lat:27.1360,lng:57.0620}, 'horse','伊朗米納�
  ,description_cn:'清朝皇帝喜愛狩獵，其參與的狩獵活動一般在秋季舉行，被稱為｢木蘭秋狝｣。著名的傳教士郎世寧创作过一幅《乾隆皇帝射獵圖》，這幅畫的內容是乾隆皇帝騎馬狩獵野兔的情景。這幅畫創作於1755年，現在收藏於北京故宮博物院。'  
  ,description_en:'The emperors of the Qing Dynasty 清朝 loved hunting, and the Imperial hunts of the Qing Dynasty were usually held in autumn. The famous missionary Giuseppe Castiglione created a painting called "Qianlong Emperor Hunting Hare", which shows the scene of Emperor Qianlong 乾隆皇帝 hunting wild rabbits through riding. The painting was created in 1755 and is now housed in the Palace Museum in Beijing 北京.'
 ,reference:'1. 郎世寧等乾隆皇帝射獵圖軸，故宮博物院網站，網址：www.dpm.org.cn/collection/paint/233335.html。'  
- ,image:''
- ,referenceUrl:''});
+ ,image:'media/OneDrive_1_2024-1-8/136. (Qing Dynasty, The Qianlong Emperor Hunting Hare, housed in The Palace Museum).png'
+ ,image_content_cn:'清，乾隆皇帝射獵圖軸，故宮博物院藏'
+,image_content_en:'Qing Dynasty, The Qianlong Emperor Hunting Hare, housed in The Palace Museum'
+   ,referenceUrl:''});
 	
 
  markers.horse69 = createMarker({lat:47.7334,lng:96.8131}, 'horse','蒙古烏裡雅蘇台',{ A:['horse'],B:['清'],C:['朝貢'],D:['陸上絲綢之路'],E:['東亞'] },

@@ -53,8 +53,10 @@
      ,description_cn:'斑馬，在明朝時被稱為｢福鹿｣、｢福祿｣或｢花福祿｣。在明朝的歷史記錄中，斑馬是不剌哇（如今索馬里的巴拉韋）的特產之一，該國曾數次向明朝進貢這種動物。'  
      ,description_en:'In the historical records of the Ming Dynasty 明朝, the zebra was one of the specialties of Barawa in Somali. The country sent zebras as tribute to the Ming Dynasty several times.'
      ,reference:'1. 張廷玉等，《明史·列傳第二百十四》（北京：中華書局，1997），頁8449。'
-     ,image:''
-     ,referenceUrl:''});	
+     ,image:'media/OneDrive_1_2024-1-8/396. (Ming Dynasty, Zebra in Yiyu Tuzhi, housed in Cambridge University Library).png'
+     ,image_content_cn:'明，《異域圖志》福鹿圖，劍橋大學圖書館藏'
+    ,image_content_en:'Ming Dynasty, Zebra in Yiyu Tuzhi, housed in Cambridge University Library'
+   ,referenceUrl:''});	
 
      markers.zebra2 = createMarker({ lat:27.1376,lng:57.0724 }, 'zebra','伊朗米納卜',{ A:['zebra'],B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['西亞']},
      {title_cn: '描述',title_en: 'Description'  

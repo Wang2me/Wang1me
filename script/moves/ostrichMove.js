@@ -31,8 +31,10 @@ markers.ostrich4 = createMarker({lat:36.7252,lng:68.8636}, 'ostrich','阿富汗�
 	,description_cn:'唐朝最著名的鴕鳥是由吐火羅（今阿富汗南部）在唐高宗時期進貢的。唐朝的許多文獻中有記錄了這隻鴕鳥身材高大、奔跑速度快的特點。在唐高宗的陵墓乾陵中，至今依然保存有一對大型鴕鳥石雕。'  
 	,description_en:'The most famous ostrich of the Tang Dynasty 唐朝 was imported from Tokhara (present-day southern Afghanistan) during the reign of Emperor Gaozong of the Tang Dynasty 唐高宗. The features of this ostrich\'s height and high speed of running were recorded in many Tang Dynasty documents. The Qianling Mausoleum 乾陵, the tomb of Emperor Gaozong, still contains a pair of large ostrich stone statues.'
 	 ,reference:'1. 歐陽修、宋祁，《新唐書·列傳第一百四十六下》（北京：中華書局，1997），頁6252。<br>&emsp;&emsp;&emsp;2. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T\'ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 102.<br>&emsp;&emsp;&emsp;3. 鴕鳥，乾陵博物館網站，www.zhongguoqianling.com/product/85.html。'  
-	,image:''
-	,referenceUrl:''});
+	,image:'media/OneDrive_1_2024-1-8/408. (Tang Dynasty, Stone Ostrich, housed in Qianling Museum) .jpg'
+	,image_content_cn:'唐，鴕鳥石雕，乾陵博物館藏'
+    ,image_content_en:'Tang Dynasty, Stone Ostrich, housed in Qianling Museum'
+   ,referenceUrl:''});
 
     
 markers.ostrich5 = createMarker({ lat:27.1348,lng:57.0645}, 'ostrich','伊朗米納卜',{ A:['ostrich'], B:['明'],C:['朝貢'],D:['海上絲綢之路'],E:['西亞'] },

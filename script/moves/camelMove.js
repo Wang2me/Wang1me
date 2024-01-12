@@ -416,8 +416,10 @@ markers.camel52 = createMarker({lat:39.9171,lng:116.3797 }, 'camel','北京',{ A
      ,description_cn:'元朝皇帝的儀仗隊中，有六頭裝有蓮座的大象，這些大象由六名南越軍人牽引。其後是九頭有彩旗裝飾的駱駝。皇帝出行時，九個駱駝騎手會擊鼓以壯聲勢，這種駱駝被稱為｢駝鼓｣。元代宮廷畫家劉貫道所繪製的《元世祖出獵圖》創作於至元十七年（公元1280年），其內容為元世祖忽必烈和自己的皇后及一眾隨從打獵的場景。在繪畫的上半部分，可以看到一支為皇帝攜帶物資的駱駝隊伍。'  
      ,description_en:'"The emperor’s guard of honour in the Yuan Dynasty 元朝 included six elephants setting lotus form seats and nine camels decorated with colour flags. When the emperor was traveling, the camel riders would beat the drums to make their presence felt. Therefore, these camels were also called “tuogu 駝鼓”(camel drums).The ""Scroll Painting of Yuan Dynasty Ancestor Go Hunting"" was painted in 1280 by the court painter Liu Guandao 劉貫道. This painting shows the Kublai Khan on his hunting trip with his empress and a group of servants. In the upper part of the painting, we can see a troop of camels carrying supplies for the emperor."'
 	 ,reference:'1. 宋濂等，《元史·志第二十九》（北京：中華書局，1997），頁1974，1975-1976。<br>&emsp;&emsp;&emsp;2. 畫元世祖出獵圖，國立故宮博物院網站，網址：theme.npm.edu.tw/khan/Article.aspx?sNo=03009149。'  
-     ,image:''
-     ,referenceUrl:''});
+     ,image:'/media/OneDrive_1_2024-1-8/52. (Yuan Dynasty, Scroll Painting of Yuan Dynasty Ancestor Go Hunting [detail], housed in National Palace Museum).jpg'
+     ,image_content_cn:'元，元世祖出獵圖[局部]，國立故宮博物院藏'
+     ,image_content_en:'Yuan Dynasty, Scroll Painting of Yuan Dynasty Ancestor Go Hunting [detail], housed in National Palace Museum'
+   ,referenceUrl:''});
 
 markers.camel53 = createMarker({lat:39.6527,lng:66.9909 }, 'camel','烏茲別克斯坦撒馬爾罕',{ A:['camel'],B:['元'],C:['宗教信仰'],D:['陸上絲綢之路'],E:['中亞'] },
     {title_cn: '描述',title_en: 'Description'  
@@ -433,7 +435,8 @@ markers.camel54 = createMarker({lat:39.9175,lng:116.3767}, 'camel','北京',{ A:
      ,description_en:'The Ming Dynasty 明朝 established a detailed tribute system. The camels in tributes would be assessed by Huitongguan 會同館 and Dianmusuo 典牧所. The best camels were selected to be displayed to the emperor in the court.  During the Wanli 萬曆 period, the review on court was cancelled, and the camels were directly received by different departments. Usually, the “huici 回賜” for camels were coloured silk and satin.'
 	 ,reference:'1. 申時行等，《明會典·卷之一百八》（北京：中華書局據萬有文庫本排印，1989），頁585。<br>&emsp;&emsp;&emsp;2. 申時行等，《明會典·卷之一百十一》（北京：中華書局據萬有文庫本排印，1989），頁593，595。'  
      ,image:''
-     ,referenceUrl:''});  
+     ,image_content:''
+,referenceUrl:''});  
 
 markers.camel55 = createMarker({lat: 47.7317,lng:96.8148}, 'camel','蒙古烏里雅蘇臺',{ A:['camel'],B:['明'],C:['軍事'],D:['陸上絲綢之路'],E:['東亞'] },
     {title_cn: '描述',title_en: 'Description'  

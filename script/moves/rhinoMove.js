@@ -7,8 +7,10 @@
     description_cn: '商代時，中國北方氣候溫暖潮濕，犀牛曾經廣泛分佈於黃河流域的森林中。這些犀牛是商代貴族的狩獵對象之一，現今出土的許多甲骨文刻辭都有相關的記載。現存於中國國家博物館的「宰丰骨匕」就是一例。「宰丰骨匕」是一條用牛肋骨製成的匕首造型的禮器，其背面刻有精美的花紋，而正面刻有文字。如今可供辨識的有28字，其內容大意為：商王在山中狩獵，收穫了一隻犀牛。商王賞賜了隨行的幾位官員，並用這隻犀牛舉行了祭祀儀式。'
     ,description_en:'During the Shang Dynasty 商朝, the climate in northern China was warm and humid, and rhinos were once widely distributed in the forests of the Yellow River Valley. These rhinos were one of the hunting trophies of the Shang nobles, and many of the oracle bone inscriptions unearthed today contain relevant records. The ""Zai Feng Bone Dagger 宰丰骨匕"" in the National Museum of China is evidence. The ""Zai Feng Bone Dagger"" is a dagger-shaped ceremonial vessel made from a cattle rib, the back of which is beautifully engraved with a pattern, while the front is engraved with an inscription. There are 28 characters that can be identified today, and they read as follows: The king of the Shang Dynasty was hunting in the mountains and harvested a rhino. The king of Shang rewarded several officials accompanying him and used the rhino in a sacrificial ceremony.'
     ,reference:'1. 宰丰骨匕，中國國家博物館網站，www.chnmuseum.cn/zp/zpml/kgfjp/202108/t20210802_250927.shtml。'
-    ,imag:''
-    ,referenceUrl:''
+    ,imag:'media/OneDrive_1_2024-1-8/361. (Shang Dynasty, Zai Feng Bone Dagger, housed in National Museum of China).png'
+    ,image_content_cn:'商， 宰丰骨匕，中國國家博物館藏'
+    ,image_content_en:'Shang Dynasty, Zai Feng Bone Dagger, housed in National Museum of China'
+   ,referenceUrl:''
  });
 		
  
@@ -17,8 +19,10 @@ markers.rhino2 = createMarker({ lat:35.8008,lng:116.0890}, 'rhino','山東梁山
  ,description_cn:'小臣艅犀尊是目前為止中國出土的最早的犀牛造型的青銅器，現收藏於舊金山的亞洲藝術博物館。這件青銅器造型逼真，說明3000年前的河南、山東地區有犀牛分佈，製作者親眼目睹過犀牛的樣子。其內壁上刻有27字的銘文，解釋了製作這件青銅器的原因：商王帶領軍隊討伐東夷的人方國，巡視了夔地並賞賜了一位名叫艅的小官。艅讓人製作了這件犀尊並刻文記錄此事。'  
  ,description_en:'The Ritual Vessel in the Shape of a Rhinoceros, now housed in the Asian Art Museum in San Francisco, is the earliest rhino-shaped bronze vessel ever unearthed in China. The realistic shape of this bronze suggests that rhinos were distributed around Henan 河南 and Shandong 山東  3,000 years ago and that the maker witnessed the rhinos in person. A 27-character inscription on the inside of the rhinoceros explains the reason for making this bronze vessel: the King of Shang 商王 led an army to conquer the Renfang Kingdom 人方國 of the Dongyi 東夷, toured the Kui region 夔地, and rewarded a minor official named Yu 艅. Yu ordered this rhinoceros-shaped bronze vessel to be produced and inscribed a record of the event.	1. Ritual Vessel in the Shape of a Rhinoceros, Asian Art Museum Website, collections.asianart.org/collection/ritual-vessel-in-the-shape-of-a-rhinoceros/.'
 ,reference:'1. Elizabeth Pennissi, "Burials in Cyprus Suggest Cats Were Ancient Pets", Science, Vol. 304, Issue 5668 (April 2004), pp. 189.	'  
- ,image:''
- ,referenceUrl:''
+ ,image:'media/OneDrive_1_2024-1-8/362. (Shang Dynasty, Ritual Vessel in the Shape of a Rhinoceros, housed in Asian Art Museum).jpg'
+ ,image_content_cn:'商，小臣艅犀尊，舊金山亞洲藝術博物館藏'
+,image_content_en:'Shang Dynasty, Ritual Vessel in the Shape of a Rhinoceros, housed in Asian Art Museum, San Francisco'
+   ,referenceUrl:''
  });
 			
  
@@ -130,8 +134,10 @@ markers.rhino13= createMarker({lat:34.6205,lng:108.9335 }, 'rhino','陝西三原
   ,description_cn:'獻陵，是唐高祖李淵的陵墓，位於陝西省三原縣。西安碑林博物館收藏了一個十噸重的石犀，被認定為原本立在獻陵墓道兩側的石像生。這枚石犀下的石板上刻有銘文，考學學家推測為「高祖懷遠之德」，意為「唐高祖以德政安撫遠方邊境地區的民眾」。這個石犀的出現是唐代中外交流的重要例證。'  
   ,description_en:'Xianling Mausoleum 獻陵 is the mausoleum of Li Yuan 李淵, the founder of the Tang Dynasty 唐朝, and is located in Sanyuan 三原, Shaanxi Province 陝西省. The Xi\'an Beilin Museum 西安碑林博物館 collects a ten-ton stone rhino, which was one of the stone beasts originally located in the sacred way of the Xianling Mausoleum. The stone slab below the rhinoceros bears an inscription, which archaeologists have hypothesized to read, "The Emperor Gaozu of the Tang Dynasty appeased the people of the distant border areas with his benevolence". This stone rhino is an important evidence of China-foreign exchanges in the Tang Dynasty.	'
 ,reference:'1. 石犀，西安碑林博物館（2020年7月13日），www.beilin-museum.com/index.php?m=home&c=View&a=index&aid=141。'  
-  ,image:''
-  ,referenceUrl:''});
+  ,image:'media/OneDrive_1_2024-1-8/373. (Tang Dynasty, Stone Rhino in Xianling Mausoleum, housed in Xi\'an Beilin Museum) .png'
+  ,image_content_cn:'唐，獻陵石犀，西安碑林博物館藏'
+,image_content_en:'Tang Dynasty, Stone Rhino in Xianling Mausoleum, housed in Xi\'an Beilin Museum'
+   ,referenceUrl:''});
  
 markers.rhino14 = createMarker({lat:34.2824,lng:108.9253}, 'rhino','陝西西安',{ A:['rhino'],B:['唐'],C:['文化娛樂'],D:['其他'],E:['東亞'] },
  {title_cn: '描述',title_en: 'Description'  
@@ -279,8 +285,10 @@ markers.rhino29 = createMarker({lat:28.6873,lng:77.1969}, 'rhino','印度德里'
  ,description_cn:'清朝並無犀牛傳入中國的記錄。康熙時期，比利時傳教士南懷仁來到中國。1647年，他編寫了《坤輿圖說》一書，主要內容為當時西方的地理知識。在書中，南懷仁記錄了在印度有一種大型野獸：這種野獸體型和象相當，鼻子和頭頂分別有兩隻角。從書中的附圖可以看出，這種大型野獸就是犀牛。可見清朝時期的中國人已經不知道犀牛的真正樣貌。有趣的是，南懷仁所繪的犀牛圖畫和德國畫家杜勒的犀牛版畫幾乎一模一樣。台灣學者賴毓芝的研究還原了這一種犀牛圖像從歐洲傳入清宮的過程：1514年，印度蘇丹將一頭犀牛贈送給葡萄牙國王；第二年，德國畫家杜勒根據來自里斯本的素描繪製了這幅犀牛版畫；1558年，瑞士博物學家康拉德·格納斯出版了《動物史》，書中介紹犀牛的圖畫仿繪自杜勒的作品；而南懷仁在編寫《坤輿圖說》時參考了格納斯的《動物史》，因此將這幅犀牛圖像一併借鑒了過來。'  
  ,description_en:'There is no record of rhinos being introduced into China during the Qing Dynasty 清朝. During the Kangxi 康熙 period, Father Ferdinand Verbiest came to China from Belgium. In 1647, he published Kunyu Tushuo 坤輿圖說 (Diagrams and Explanations about World Geography), which was mainly about the geographical knowledge of the Western world at that time. In his book, he recorded the existence of a large beast in India: it was close to the size of an elephant, with two horns on its trunk and the top of its head. From the pictures in the book, it can be seen that this large beast was the rhino. It is evident that the Chinese during the Qing Dynasty did not know what a rhino really looked like.Interestingly, the picture drawn by Verbiest is almost identical to the rhino prints by the German painter Albrecht Dürer. Lai Yu-chih, a historian from Taiwan, has restored the process of this rhino image was introduced from Europe to the Qing court: In 1514, the Sultan of India gifted a rhino to the King of Portugal; The following year, the German painter Dürer drew this rhino print based on materials from Lisbon; In 1558, the Swiss naturalist Conrad Gessner published his book Historia animalium, in which the picture of rhino was modeled on Dürer\'s work; Verbiest referred to Gnauss\'s Historia animalium when compiling his Diagrams and Explanations about World Geography, and thus borrowed this rhino image as well.'
  ,reference:'1. 坤輿圖說，中國大百科全書網站，www.zgbk.com/ecph/words?SiteID=1&ID=68565&Type=bkzyb。<br>&emsp;&emsp;&emsp;2. 南懷仁，《坤輿圖說》（北京：中華書局據指海本影印，1985），頁70-71。<br>&emsp;&emsp;&emsp;3. 賴毓芝，〈從杜勒到清宮：以犀牛為中心的全球史觀察〉，《故宮文物月刊》，總期344（2011年11月），頁70-76。'  
- ,image:''
- ,referenceUrl:''});			
+ ,image:'media/OneDrive_1_2024-1-8/389. (1515, The Rhinoceros by Albrecht Durer, housed in National Gallery of Art in Washington DC).jpg'
+ ,image_content_cn:'公元1515，杜勒的犀牛，華盛頓國家美術館藏'
+,image_content_en:'1515, The Rhinoceros by Albrecht Durer, housed in National Gallery of Art in Washington DC'
+   ,referenceUrl:''});			
 //葡萄牙里斯本，德國紐倫堡，瑞士蘇黎世，比利時魯汶，北京	-lat:38.7220107,lng:-9.1523-lat:49.4361997,lng:10.9682-lat:47.3764397,lng:8.5089-lat:50.8807619,lng:4.7059
   
 

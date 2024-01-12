@@ -18,8 +18,10 @@
  ,description_cn:'獵豹，曾經廣泛分佈於西亞和非洲地區，其速度可超過每小時100公里，是陸地上跑得最快的動物。因其優秀的高速奔跑能力，獵豹被古人用於狩獵。這一習俗通過陸上絲綢之路傳入中國，在唐代十分流行。在章懷太子墓的壁畫中有一幅《狩獵出行圖》，其中有一隻獵豹蹲坐在馬背上的場景，顯示了獵豹在唐朝皇室狩獵活動中的參與。'  
  ,description_en:'"Cheetahs, once widespread in West Asia and Africa, are the fastest animals on land with speeds of over 100 kilometers per hour. Since its excellent ability to high-speed running, cheetahs were adopted by the ancient people for hunting. This custom was introduced to China through the Continental Silk Road and was very popular during the Tang Dynasty 唐朝.There is a mural from the Tomb of Prince Zhanghuai 章懷太子墓 in which a cheetah sits on the back of a horse, showing the cheetah\'s participation in the imperial hunting activities of the Tang Dynasty."'
 ,reference:'1. Edward H.Schafer, The Golden Peaches of Samarkand: A Study of T\'ang Exotics (Berkeley and Los Angeles: University of California Press, 1963), pp. 87-88.<br>&emsp;&emsp;&emsp;2. 侯曉斌，〈唐代狩獵活動中的珍禽猛獸速度之神——獵豹〉，乾陵博物館網站（2022年4月14日），www.zhongguoqianling.com/news/1217.html。'
- ,image:''
- ,referenceUrl:''});
+ ,image:'media/OneDrive_1_2024-1-8/293. (Tang Dynasty, The Mural of Hunting Trip in the Tomb of Prince Zhanghuai [detail], housed in Qianling Museum).jpg'
+ ,image_content_cn:'唐，章懷太子墓壁畫狩獵出行圖[局部]，乾陵博物館藏'
+,image_content_en:'Tang Dynasty, The Mural of Hunting Trip in the Tomb of Prince Zhanghuai [detail], housed in Qianling Museum'
+   ,referenceUrl:''});
 
 
 markers.cheetah2 = createMarker({ lat:39.6606,lng:66.9326 }, 'cheetah','烏茲別克斯坦撒馬爾罕',{ A:['cheetah'],B:['唐'],C:['朝貢'],D:['陸上絲綢之路'],E:['中亞'] },
@@ -82,9 +84,11 @@ markers.cheetah8 = createMarker({lat:40.7733,lng:114.8712}, 'cheetah','河北張
  ,description_cn:'元朝由蒙古人建立，是中國歷史上第一個由遊牧民族建立的大一統王朝。狩獵是蒙古文化中流行的娛樂活動。和其他朝代相比，「豹獵」活動在元朝尤為興盛。由元代宮廷畫家劉貫道所繪製的《元世祖出獵圖》即為一例。這幅畫創作於至元十七年（公元1280年），其內容為元世祖忽必烈和自己的皇后及一眾隨從打獵的場景。繪畫中有多種用於狩獵的動物，包括馬、狗、鷹以及一隻獵豹。在繪畫的下半部，這隻戴著嘴套的獵豹蹲坐在一名騎士背後。'  
  ,description_en:'The Yuan Dynasty 元朝, founded by the Mongols, was the first unified dynasty in Chinese history founded by nomadic peoples. Hunting was a popular entertainment in Mongolian culture. Compared with other dynasties, "cheetah hunting" was especially prevalent in the Yuan Dynasty. The "Scroll Painting of Yuan Dynasty Ancestor Go Hunting", painted by the court painter Liu Guandao 劉貫道, is evidence of this. This painting, dating from 1280, shows the Kublai Khan on his hunting trip with his empress and a group of servants. There are a variety of animals for hunting in the painting, including horses, dogs, eagles, and a cheetah. In the lower half of the painting, the muzzled cheetah sits behind a rider.'
 ,reference:'1. 陳曉偉，〈「馬負文豹」與草原遊獵圖像探析〉，《故宮博物院院刊》，期6（2016年11月），頁95-97。<br>&emsp;&emsp;&emsp;2. 畫元世祖出獵圖，國立故宮博物院網站，theme.npm.edu.tw/khan/Article.aspx?sNo=03009149。'
- ,image:''
- ,referenceUrl:''});  		
-
+ ,image:'/media/OneDrive_1_2024-1-8/300. (Yuan Dynasty, Scroll Painting of Yuan Dynasty Ancestor Go Hunting [detail], housed in National Palace Museum).jpg'
+ ,image_content_cn:'元，元世祖出獵圖[局部]，國立故宮博物院藏'
+ ,image_content_en:'Yuan Dynasty, Scroll Painting of Yuan Dynasty Ancestor Go Hunting [detail], housed in National Palace Museum'
+   ,referenceUrl:''});  		
+   
 markers.cheetah9 = createMarker({lat:38.0754,lng:46.2818}, 'cheetah','伊朗大不里士',{ A:['cheetah'],B:['元'],C:['朝貢'],D:['陸上絲綢之路'],E:['西亞'] },
 {title_cn: '描述',title_en: 'Description'  
  ,description_cn:'其他蒙古汗國同樣有「豹獵」的習俗，並且會向元朝進貢獵豹。據記載，位於中亞地區的伊兒汗國曾經向元朝進貢過獵豹。'  
@@ -119,8 +123,10 @@ markers.cheetah12 = createMarker({lat:29.5916,lng:52.5840 }, 'cheetah','伊朗�
  ,description_cn:'失刺思，即如今伊朗的設拉子，在明代時由帖木兒帝國所統治。永樂年間，帖木兒帝國曾經數次向明朝進貢獵豹。在克利夫蘭藝術博物館收藏有一幅帖木兒帝國時期的插畫，其內容是1444年在設拉子的一場宮廷宴會。這場宴會的客人是三位明朝官員，他們可能是明朝出訪帖木兒帝國的使節。在他們身旁有兩頭獵豹、一隻獵鷹和一匹馬，這些動物可能是他們將要帶回明朝的貢品。'  
  ,description_en:'Shiraz in Iran was ruled by the Timurid Empire during the Ming Dynasty. In the Yongle 永樂 period, the Timurid empire paid tribute to the Ming Dynasty 明朝 several times for the cheetahs. The Cleveland Museum of Art collects an illustration from the Timurid period of a royal banquet in Shiraz in 1444. The guests at this banquet were three Chinese officials who were probably envoys from the Ming Dynasty to the Timurid Empire. Beside them were two cheetahs, an eagle, and a horse, which may have been the tribute they would bring back to the Ming Dynasty.'
 ,reference:'1. 馬順平，〈豹與明代宮廷〉，《歷史研究》，期3（2014年7月），頁180。<br>&emsp;&emsp;&emsp;2. Royal Reception in a Landscape, The Cleveland Museum of Art Website, www.clevelandart.org/art/1956.10.'
- ,image:''
- ,referenceUrl:''}); 
+ ,image:'media/OneDrive_1_2024-1-8/304. (1444, Royal Reception in a Landscape, housed in The Cleveland Museum of Art).png'
+ ,image_content_cn:'公元1444年，帖木兒時期設拉子宮廷花園宴會圖[局部]，克利夫蘭藝術博物館藏公元1444年，帖木兒時期設拉子宮廷花園宴會圖[局部]，克利夫蘭藝術博物館藏'
+,image_content_en:'1444, Royal Reception in a Landscape [detail], housed in The Cleveland Museum of Art'
+   ,referenceUrl:''}); 
 
 }
 
