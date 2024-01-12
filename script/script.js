@@ -1108,26 +1108,26 @@ function enlargeImage(img) {
     imageContainer.appendChild(modalImg);
 
 
-    let isDragging = false;
-    let offset = { x: 0, y: 0 };
+    // let isDragging = false;
+    // let offset = { x: 0, y: 0 };
     
-    // Mouse event listeners for dragging the image container
-    imageContainer.addEventListener('mousedown', function(event) {
-      isDragging = true;
-      offset.x = event.offsetX;
-      offset.y = event.offsetY;
-    });
+    // // Mouse event listeners for dragging the image container
+    // imageContainer.addEventListener('mousedown', function(event) {
+    //   isDragging = true;
+    //   offset.x = event.offsetX;
+    //   offset.y = event.offsetY;
+    // });
   
-    document.addEventListener('mousemove', function(event) {
-      if (isDragging) {
-        imageContainer.style.left = (event.clientX - offset.x) + 'px';
-        imageContainer.style.top = (event.clientY - offset.y) + 'px';
-      }
-    });
+    // document.addEventListener('mousemove', function(event) {
+    //   if (isDragging) {
+    //     imageContainer.style.left = (event.clientX - offset.x) + 'px';
+    //     imageContainer.style.top = (event.clientY - offset.y) + 'px';
+    //   }
+    // });
   
-    document.addEventListener('mouseup', function() {
-      isDragging = false;
-    });
+    // document.addEventListener('mouseup', function() {
+    //   isDragging = false;
+    // });
 
     //Position the image container over the map using CSS
     imageContainer.addEventListener('wheel', function(event) {
