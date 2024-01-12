@@ -1130,14 +1130,14 @@ function enlargeImage(img) {
     // });
 
     //Position the image container over the map using CSS
-    imageContainer.addEventListener('wheel', function(event) {
-        event.preventDefault(); // Prevent default scrolling behavior
-        if (event.deltaY < 0) {
-          modalImg.style.width = (modalImg.clientWidth * 1.1) + 'px';
-        } else {
-          modalImg.style.width = (modalImg.clientWidth * 0.9) + 'px';
-        }
-      });
+    // imageContainer.addEventListener('wheel', function(event) {
+    //     event.preventDefault(); // Prevent default scrolling behavior
+    //     if (event.deltaY < 0) {
+    //       modalImg.style.width = (modalImg.clientWidth * 1.1) + 'px';
+    //     } else {
+    //       modalImg.style.width = (modalImg.clientWidth * 0.9) + 'px';
+    //     }
+    //   });
     // Append the image container to the body of the document
     document.body.appendChild(imageContainer);
   }
